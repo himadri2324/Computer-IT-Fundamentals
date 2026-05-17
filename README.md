@@ -130,8 +130,8 @@ Each practical is designed to simulate real-world tasks commonly performed in en
 
 # Author
 
-Yogesh Sharma
+Himadri Singh
 
-GitHub: https://github.com/
+GitHub: https://github.com/himadri2324
 
 ---
