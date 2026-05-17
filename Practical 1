@@ -1,0 +1,236 @@
+# Practical 1 — Windows System Monitoring
+
+## Overview
+
+This practical focuses on real-time Windows system monitoring using built-in monitoring and troubleshooting tools.
+
+The objective of this lab is to understand how Windows manages:
+- CPU resources
+- Memory utilization
+- Disk activity
+- Running processes
+- Resource consumption
+- System performance monitoring
+
+This practical simulates basic enterprise-level troubleshooting scenarios commonly performed by:
+- IT Support Engineers
+- SOC Analysts
+- System Administrators
+- Helpdesk Engineers
+- Cybersecurity Professionals
+
+---
+
+# Tools Used
+
+- Task Manager
+- Resource Monitor
+- Windows Defender
+- Windows Performance Monitoring Features
+
+---
+
+# Skills Learned
+
+After completing this practical, you will be able to:
+
+- Monitor CPU utilization in real time
+- Analyze memory usage and RAM allocation
+- Identify disk bottlenecks and storage activity
+- Investigate running processes
+- Detect abnormal resource consumption
+- Perform basic troubleshooting
+- Understand enterprise monitoring workflows
+- Use Resource Monitor for advanced analysis
+
+---
+
+# Practical Structure
+
+| Part | Topic |
+|------|------|
+| Part 1 | Task Manager & Processes |
+| Part 2 | CPU Monitoring |
+| Part 3 | Memory Monitoring |
+| Part 4 | Disk Monitoring |
+| Part 5 | Resource Monitor |
+
+---
+
+# Part 1 — Task Manager & Processes
+
+## Topics Covered
+
+- Introduction to Task Manager
+- Active applications and background processes
+- CPU usage by processes
+- Memory usage by applications
+- Disk usage monitoring
+- Ending high resource-consuming tasks
+- Basic process investigation
+
+## Key Learning
+
+This section explains how administrators monitor active applications and identify resource-heavy or suspicious processes during troubleshooting.
+
+---
+
+# Part 2 — CPU Monitoring
+
+## Topics Covered
+
+- CPU utilization monitoring
+- Processor speed analysis
+- Threads and handles
+- Logical processors and cores
+- Real-time CPU workload generation
+- Performance graph analysis
+
+## Key Learning
+
+This section helps understand how processor resources are consumed and how abnormal CPU activity can indicate performance issues or malicious behavior.
+
+---
+
+# Part 3 — Memory Monitoring
+
+## Topics Covered
+
+- RAM usage analysis
+- Cached memory
+- Committed memory
+- Available memory
+- Memory compression
+- Real-time memory consumption
+
+## Key Learning
+
+This section explains how Windows manages memory resources and how memory pressure affects system performance.
+
+---
+
+# Part 4 — Disk Monitoring
+
+## Topics Covered
+
+- Active disk time
+- Read and write operations
+- Response time analysis
+- Disk transfer rate
+- Storage performance monitoring
+- Disk bottleneck analysis
+
+## Key Learning
+
+This section demonstrates how to identify storage-related performance issues and monitor disk activity in real time.
+
+---
+
+# Part 5 — Resource Monitor
+
+## Topics Covered
+
+- Advanced process monitoring
+- CPU analysis
+- Memory pressure analysis
+- Hard faults monitoring
+- Disk activity tracking
+- File-level resource usage
+- Service monitoring
+
+## Key Learning
+
+This section introduces advanced troubleshooting techniques using Resource Monitor for detailed system analysis.
+
+---
+
+# Important Notes
+
+## 1. Task Manager is a Real Troubleshooting Tool
+
+Task Manager is not only used to close applications.
+
+Enterprise administrators and SOC analysts use it to:
+- identify abnormal resource usage
+- monitor system performance
+- investigate suspicious activity
+- troubleshoot slow systems
+
+---
+
+## 2. High CPU Usage May Indicate
+
+- heavy workloads
+- unstable applications
+- malware activity
+- background scanning
+- update processes
+
+---
+
+## 3. High Memory Usage Can Cause
+
+- application lag
+- browser slowdown
+- reduced responsiveness
+- system freezing
+
+---
+
+## 4. Disk Bottlenecks Are Common
+
+High disk usage with slow response time may indicate:
+- antivirus scanning
+- indexing
+- Windows updates
+- storage issues
+- excessive background activity
+
+---
+
+# Secret Tips & Practical Insights
+
+## Tip 1 — Sort Processes by Resource Usage
+
+Always sort:
+- CPU
+- Memory
+- Disk
+
+to quickly identify problematic applications.
+
+---
+
+## Tip 2 — Use Resource Monitor for Deep Analysis
+
+Resource Monitor provides:
+- file-level operations
+- handle monitoring
+- detailed disk activity
+- process filtering
+
+which is extremely useful during advanced troubleshooting.
+
+---
+
+## Tip 3 — Malware Often Shows Resource Abnormalities
+
+Suspicious malware may:
+- consume abnormal CPU
+- generate unusual disk activity
+- create unknown processes
+- use excessive memory
+
+Monitoring tools help identify such anomalies.
+
+---
+
+## Tip 4 — Generate Real Activity During Practice
+
+To better understand monitoring:
+- open multiple browser tabs
+- run scans
+- copy large files
+- observe real-time graph changes
+
+This improves practical understanding.
