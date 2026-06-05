@@ -331,8 +331,6 @@ Practical-01-System-Monitoring/
 
 **Himadri Singh**
 
-Cybersecurity | IT Operations | SOC Analyst | System Monitoring & Troubleshooting
-
 ---
 
 # License
