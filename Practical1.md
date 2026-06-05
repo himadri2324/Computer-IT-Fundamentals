@@ -6,7 +6,10 @@ This practical focuses on monitoring and analyzing system performance in Microso
 
 Through hands-on observation and analysis, this practical helps develop foundational troubleshooting skills required in IT Support, System Administration, SOC Operations, and Cybersecurity roles.
 
-![System Monitoring Infographic](attachments/xhggh44iURjLDgCwZdbLu.jpeg)
+<p align="center">
+<img src=""
+  alt=" System Monitoring Infographic" width="900"/>
+  </p>
 
 ---
 
