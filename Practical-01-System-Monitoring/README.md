@@ -7,9 +7,10 @@ This practical focuses on monitoring and analyzing system performance in Microso
 Through hands-on observation and analysis, this practical helps develop foundational troubleshooting skills required in IT Support, System Administration, SOC Operations, and Cybersecurity roles.
 
 <p align="center">
-<img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-01-System-Monitoring/System%20monitoring%20infographic.png"
-  alt=" System Monitoring Infographic" width="900"/>
-  </p>
+  <img src="./System monitoring infographic.png"
+       alt="System Monitoring Infographic"
+       width="900"/>
+</p>
 
 ---
 
@@ -17,12 +18,12 @@ Through hands-on observation and analysis, this practical helps develop foundati
 
 After completing this practical, you will be able to:
 
-* Monitor CPU utilization and identify high resource-consuming processes.
-* Analyze memory usage, cached memory, and virtual memory behavior.
-* Observe disk activity and storage performance in real time.
-* Use Task Manager for basic performance monitoring.
-* Use Resource Monitor for advanced system analysis.
-* Perform basic troubleshooting based on system resource utilization.
+- Monitor CPU utilization and identify high resource-consuming processes.
+- Analyze memory usage, cached memory, and virtual memory behavior.
+- Observe disk activity and storage performance in real time.
+- Use Task Manager for basic performance monitoring.
+- Use Resource Monitor for advanced system analysis.
+- Perform basic troubleshooting based on system resource utilization.
 
 ---
 
@@ -34,24 +35,31 @@ To understand the Windows Task Manager interface and monitor active processes co
 
 ## Topics Covered
 
-* Opening Task Manager
-* Understanding Processes Tab
-* Background Processes
-* Windows Processes
-* CPU Usage Monitoring
-* Memory Consumption Monitoring
-* Process Identification
-* Real-Time Resource Usage
+- Opening Task Manager
+- Understanding Processes Tab
+- Background Processes
+- Windows Processes
+- CPU Usage Monitoring
+- Memory Consumption Monitoring
+- Process Identification
+- Real-Time Resource Usage
+
+<p align="center">
+  <img src="./Task Manager Processes.png"
+       alt="Task Manager Processes"
+       width="900"/>
+</p>
 
 ## Skills Gained
 
-* Process Monitoring
-* Resource Utilization Analysis
-* Basic Windows Troubleshooting
+- Process Monitoring
+- Resource Utilization Analysis
+- Basic Windows Troubleshooting
 
 ## Video Demonstration
 
-**Video Link:** *https://www.youtube.com/watch?v=JDDLWTWSuu4*
+**Video Link:**  
+https://www.youtube.com/watch?v=JDDLWTWSuu4
 
 ---
 
@@ -63,30 +71,37 @@ To monitor CPU utilization and understand how processor-intensive applications a
 
 ## Topics Covered
 
-* CPU Usage Monitoring
-* Processor Load Analysis
-* Process-Level CPU Consumption
-* Multi-Core CPU Activity
-* Performance Impact Assessment
-* Troubleshooting High CPU Usage
+- CPU Usage Monitoring
+- Processor Load Analysis
+- Process-Level CPU Consumption
+- Multi-Core CPU Activity
+- Performance Impact Assessment
+- Troubleshooting High CPU Usage
+
+<p align="center">
+  <img src="./CPU Monitoring.png"
+       alt="CPU Monitoring"
+       width="900"/>
+</p>
 
 ## Observations
 
 During the practical:
 
-* Identified applications consuming high CPU resources.
-* Monitored CPU utilization changes during application execution.
-* Observed how system responsiveness changes under heavy CPU load.
+- Identified applications consuming high CPU resources.
+- Monitored CPU utilization changes during application execution.
+- Observed how system responsiveness changes under heavy CPU load.
 
 ## Skills Gained
 
-* CPU Performance Analysis
-* System Performance Troubleshooting
-* Resource Bottleneck Identification
+- CPU Performance Analysis
+- System Performance Troubleshooting
+- Resource Bottleneck Identification
 
 ## Video Demonstration
 
-**Video Link:** *https://www.youtube.com/watch?v=6yCZnJb1RW4*
+**Video Link:**  
+https://www.youtube.com/watch?v=6yCZnJb1RW4
 
 ---
 
@@ -98,30 +113,37 @@ To analyze RAM usage and understand how memory affects overall system performanc
 
 ## Topics Covered
 
-* Memory Usage Monitoring
-* RAM Consumption Analysis
-* Cached Memory
-* Available Memory
-* Virtual Memory
-* Memory Pressure Observation
+- Memory Usage Monitoring
+- RAM Consumption Analysis
+- Cached Memory
+- Available Memory
+- Virtual Memory
+- Memory Pressure Observation
+
+<p align="center">
+  <img src="./Memory Monitoring.png"
+       alt="Memory Monitoring"
+       width="900"/>
+</p>
 
 ## Observations
 
 During the practical:
 
-* Monitored memory utilization in real time.
-* Identified applications consuming significant memory resources.
-* Observed the relationship between memory availability and system responsiveness.
+- Monitored memory utilization in real time.
+- Identified applications consuming significant memory resources.
+- Observed the relationship between memory availability and system responsiveness.
 
 ## Skills Gained
 
-* Memory Management Analysis
-* RAM Usage Monitoring
-* Performance Troubleshooting
+- Memory Management Analysis
+- RAM Usage Monitoring
+- Performance Troubleshooting
 
 ## Video Demonstration
 
-**Video Link:** *https://www.youtube.com/watch?v=Ej5Fs2gzOak&t=2s*
+**Video Link:**  
+https://www.youtube.com/watch?v=Ej5Fs2gzOak
 
 ---
 
@@ -133,30 +155,37 @@ To monitor storage performance and analyze disk activity using Task Manager.
 
 ## Topics Covered
 
-* Disk Usage Monitoring
-* Read Operations
-* Write Operations
-* Disk Response Time
-* Storage Performance Analysis
-* Real-Time Disk Activity
+- Disk Usage Monitoring
+- Read Operations
+- Write Operations
+- Disk Response Time
+- Storage Performance Analysis
+- Real-Time Disk Activity
+
+<p align="center">
+  <img src="./Disk Monitoring.png"
+       alt="Disk Monitoring"
+       width="900"/>
+</p>
 
 ## Observations
 
 During the practical:
 
-* Monitored active disk usage.
-* Analyzed read/write operations generated by applications.
-* Observed disk utilization during file transfers and application execution.
+- Monitored active disk usage.
+- Analyzed read/write operations generated by applications.
+- Observed disk utilization during file transfers and application execution.
 
 ## Skills Gained
 
-* Disk Performance Analysis
-* Storage Monitoring
-* Troubleshooting Disk Bottlenecks
+- Disk Performance Analysis
+- Storage Monitoring
+- Troubleshooting Disk Bottlenecks
 
 ## Video Demonstration
 
-**Video Link:** *https://www.youtube.com/watch?v=fY2IVV1plcY*
+**Video Link:**  
+https://www.youtube.com/watch?v=fY2IVV1plcY
 
 ---
 
@@ -166,43 +195,74 @@ During the practical:
 
 To perform advanced system monitoring using Windows Resource Monitor.
 
-## Topics Covered
+---
 
-### CPU Monitoring
+## CPU Monitoring
 
-* Process-Level CPU Activity
-* Service Utilization
-* Thread Monitoring
+### Topics Covered
 
-### Memory Monitoring
+- Process-Level CPU Activity
+- Service Utilization
+- Thread Monitoring
 
-* Physical Memory Usage
-* Hard Faults
-* Memory Allocation Analysis
+<p align="center">
+  <img src="./Resource Monitor CPU Analysis.png"
+       alt="Resource Monitor CPU Analysis"
+       width="900"/>
+</p>
 
-### Disk Monitoring
+---
 
-* Disk Queue Length
-* Disk Activity
-* File-Level Operations
+## Memory Monitoring
 
-### Additional Features
+### Topics Covered
 
-* Handle Monitoring
-* Service Monitoring
-* Resource Dependencies
-* Real-Time System Activity
+- Physical Memory Usage
+- Hard Faults
+- Memory Allocation Analysis
+
+<p align="center">
+  <img src="./Resource Monitor Memory Analysis.png"
+       alt="Resource Monitor Memory Analysis"
+       width="900"/>
+</p>
+
+---
+
+## Disk Monitoring
+
+### Topics Covered
+
+- Disk Queue Length
+- Disk Activity
+- File-Level Operations
+
+<p align="center">
+  <img src="./Resource Monitor Disk Analysis.png"
+       alt="Resource Monitor Disk Analysis"
+       width="900"/>
+</p>
+
+---
+
+## Additional Features
+
+- Handle Monitoring
+- Service Monitoring
+- Resource Dependencies
+- Real-Time System Activity
 
 ## Skills Gained
 
-* Advanced System Monitoring
-* Detailed Performance Analysis
-* Root Cause Investigation
-* Troubleshooting Methodology
+- Advanced System Monitoring
+- Detailed Performance Analysis
+- Root Cause Investigation
+- Troubleshooting Methodology
 
 ## Video Demonstration
 
-**Video Link:** *https://www.youtube.com/watch?v=PPOuzXYHJ6k&t=2s*
+**Video Link:**  
+https://www.youtube.com/watch?v=PPOuzXYHJ6k
 
 ---
 
@@ -210,60 +270,59 @@ To perform advanced system monitoring using Windows Resource Monitor.
 
 This practical provided hands-on experience with Windows system monitoring tools, specifically **Task Manager** and **Resource Monitor**.
 
-The practical covered:
+### Areas Covered
 
-Process Monitoring
-
-CPU Utilization Analysis
-
-Memory Usage Analysis
-
-Disk Activity Monitoring
-
-Advanced Resource Monitoring
-
-Performance Troubleshooting
+- Process Monitoring
+- CPU Utilization Analysis
+- Memory Usage Analysis
+- Disk Activity Monitoring
+- Advanced Resource Monitoring
+- Performance Troubleshooting
 
 By completing this practical, foundational skills required for IT Operations, System Administration, SOC Analysis, and Cybersecurity roles were developed through real-time monitoring and analysis of Windows system resources.
 
 ## Video Demonstration
 
-**Video Link:** *https://www.youtube.com/watch?v=60Z6rrYAa00*
+**Video Link:**  
+https://www.youtube.com/watch?v=60Z6rrYAa00
 
 ---
 
 # Tools Used
 
-| Tool             | Purpose                                              |
-| ---------------- | ---------------------------------------------------- |
-| Task Manager     | Monitor processes, CPU, memory, and disk usage       |
+| Tool | Purpose |
+|--------|----------|
+| Task Manager | Monitor processes, CPU, memory, and disk usage |
 | Resource Monitor | Advanced analysis of CPU, memory, disk, and services |
-| Windows OS       | Platform for performance monitoring                  |
+| Windows OS | Platform for performance monitoring |
 
 ---
 
 # Key Takeaways
 
-* Task Manager provides quick visibility into system resource utilization.
-* CPU monitoring helps identify performance bottlenecks.
-* Memory analysis improves understanding of system responsiveness.
-* Disk monitoring assists in troubleshooting storage-related issues.
-* Resource Monitor provides deeper visibility into process-level resource consumption.
-* Continuous monitoring is essential for effective troubleshooting and performance optimization.
+- Task Manager provides quick visibility into system resource utilization.
+- CPU monitoring helps identify performance bottlenecks.
+- Memory analysis improves understanding of system responsiveness.
+- Disk monitoring assists in troubleshooting storage-related issues.
+- Resource Monitor provides deeper visibility into process-level resource consumption.
+- Continuous monitoring is essential for effective troubleshooting and performance optimization.
 
 ---
 
 # Repository Structure
 
 ```text
-Practical-1-System-Monitoring/
+Practical-01-System-Monitoring/
 │
 ├── README.md
-├── Part-1-Task-Manager-Processes.mp4
-├── Part-2-CPU-Monitoring.mp4
-├── Part-3-Memory-Analysis.mp4
-├── Part-4-Disk-Monitoring.mp4
-└── Part-5-Resource-Monitor.mp4
+├── System monitoring infographic.png
+├── Task Manager Processes.png
+├── CPU Monitoring.png
+├── Memory Monitoring.png
+├── Disk Monitoring.png
+├── Resource Monitor CPU Analysis.png
+├── Resource Monitor Memory Analysis.png
+├── Resource Monitor Disk Analysis.png
 ```
 
 ---
