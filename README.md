@@ -98,7 +98,7 @@ By completing these practicals, you will learn how to:
 # Current Progress
 
 - [x] Practical 1 — Windows System Monitoring
-- [ ] Practical 2 — Boot Troubleshooting
+- [x] Practical 2 — Boot Troubleshooting
 - [ ] Practical 3 — Disk Management
 - [ ] Practical 4 — Windows Logs Analysis
 - [ ] Practical 5 — Registry Practice
