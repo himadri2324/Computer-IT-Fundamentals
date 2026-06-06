@@ -2,7 +2,7 @@
 
 ## About This Repository
 
-Computer & IT Fundamentals is a hands-on practical repository focused on building real-world IT support, system administration, cybersecurity, and enterprise troubleshooting skills.
+Computer & IT Fundamentals is a hands on practical repository focused on building real world IT support, system administration, cybersecurity, and enterprise troubleshooting skills.
 
 This repository contains practical labs designed for beginners and aspiring:
 - IT Support Engineers
@@ -11,7 +11,7 @@ This repository contains practical labs designed for beginners and aspiring:
 - Cybersecurity Professionals
 - Helpdesk Engineers
 
-Each practical focuses on real enterprise-level concepts using Windows, Linux, Active Directory, system monitoring tools, and troubleshooting methodologies.
+Each practical focuses on real enterprise level concepts using Windows, Linux, Active Directory, system monitoring tools, and troubleshooting methodologies.
 
 ---
 
@@ -19,10 +19,10 @@ Each practical focuses on real enterprise-level concepts using Windows, Linux, A
 
 | No. | Practical | Tools / Methods | Skills Gained |
 |------|-----------|----------------|----------------|
-| 1 | Windows System Monitoring | Task Manager, Resource Monitor | Real-time troubleshooting |
+| 1 | Windows System Monitoring | Task Manager, Resource Monitor | Real time troubleshooting |
 | 2 | Boot Troubleshooting | Safe Mode, Startup Repair | Real IT support scenario |
 | 3 | Disk Management | Windows Disk Management | Storage handling |
-| 4 | Windows Logs Analysis | Event Viewer | SOC-level log analysis |
+| 4 | Windows Logs Analysis | Event Viewer | SOC level log analysis |
 | 5 | Registry Practice | regedit | Deep Windows control |
 | 6 | Process Investigation | Task Manager + Process Explorer | Malware detection basics |
 | 7 | Linux Hands-on | Ubuntu VM + SSH | Server access skills |
@@ -39,14 +39,14 @@ Each practical focuses on real enterprise-level concepts using Windows, Linux, A
 
 This repository is designed to provide:
 
-- Practical hands-on IT experience
+- Practical hands on IT experience
 - Enterprise troubleshooting exposure
 - System monitoring knowledge
 - Windows and Linux administration skills
 - Basic cybersecurity operations understanding
 - SOC and log analysis fundamentals
 - Active Directory administration practice
-- Real-world enterprise workflow simulations
+- Real world enterprise workflow simulations
 
 ---
 
@@ -90,7 +90,7 @@ By completing these practicals, you will learn how to:
 - Manage enterprise users and permissions
 - Configure Group Policies
 - Understand authentication workflows
-- Perform basic SOC-level investigations
+- Perform basic SOC level investigations
 - Build foundational system administration skills
 
 ---
@@ -115,7 +115,7 @@ By completing these practicals, you will learn how to:
 
 # Conclusion
 
-This repository focuses on practical learning rather than theory-only concepts.
+This repository focuses on practical learning rather than theory only concepts.
 
 The goal is to build strong foundational skills in:
 - IT Support
@@ -124,7 +124,7 @@ The goal is to build strong foundational skills in:
 - Enterprise Troubleshooting
 - SOC Operations
 
-Each practical is designed to simulate real-world tasks commonly performed in enterprise environments.
+Each practical is designed to simulate real world tasks commonly performed in enterprise environments.
 
 ---
 
