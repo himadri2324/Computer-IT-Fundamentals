@@ -5,7 +5,7 @@
 This practical focuses on understanding the Windows boot process and learning how to troubleshoot startup-related issues using built-in Windows recovery and diagnostic tools.
 
 <p align="center">
-  <img src="./Boot Troubleshooting Infographic.png"
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/Boot%20Troubleshooting%20Infographics.png"
        alt="Boot Troubleshooting Infographic"
        width="900"/>
 </p>
