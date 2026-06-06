@@ -68,7 +68,7 @@ During the practical:
 ## Video Demonstration
 
 **Video Link:**
-Add YouTube Link Here
+https://www.youtube.com/watch?v=1KqUqRt0vxU
 
 ---
 
@@ -110,7 +110,7 @@ During the practical:
 ## Video Demonstration
 
 **Video Link:**
-Add YouTube Link Here
+https://www.youtube.com/watch?v=r2iXtMtaI9o
 
 ---
 
@@ -153,7 +153,7 @@ During the practical:
 ## Video Demonstration
 
 **Video Link:**
-Add YouTube Link Here
+https://www.youtube.com/watch?v=NhbmJymmFmk
 
 ---
 
@@ -196,7 +196,7 @@ During the practical:
 ## Video Demonstration
 
 **Video Link:**
-Add YouTube Link Here
+https://www.youtube.com/watch?v=5S9nVxuuLvY
 
 ---
 
@@ -219,7 +219,7 @@ By completing this practical, foundational skills required for IT Support, Help 
 ## Video Demonstration
 
 **Video Link:**
-Add YouTube Link Here
+https://www.youtube.com/watch?v=hV8pe57Sy8M
 
 ---
 
