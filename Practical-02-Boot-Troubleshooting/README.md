@@ -2,11 +2,11 @@
 
 ## Overview
 
-This practical focuses on understanding the Windows boot process and learning how to troubleshoot startup-related issues using built-in Windows recovery and diagnostic tools.
+This practical focuses on understanding the Windows boot process and learning how to diagnose and troubleshoot startup-related issues using built-in Windows recovery and diagnostic tools.
 
 <p align="center">
   <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/Boot%20Troubleshooting%20Infographics.png"
-       alt="Boot Troubleshooting Infographic"
+       alt="Boot Troubleshooting Infographics"
        width="900"/>
 </p>
 
@@ -43,7 +43,7 @@ To understand how Windows starts up, identify common boot issues, and explore ba
 * Basic Troubleshooting Techniques
 
 <p align="center">
-  <img src="./Startup Apps Analysis.png"
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/Startup%20Apps%20Analysis.png"
        alt="Startup Apps Analysis"
        width="900"/>
 </p>
@@ -77,7 +77,7 @@ https://www.youtube.com/watch?v=1KqUqRt0vxU
 
 ## Objective
 
-To access and explore the Windows Recovery Environment and understand the recovery tools available for startup troubleshooting.
+To access and explore the Windows Recovery Environment (WinRE) and understand the recovery tools available for startup troubleshooting.
 
 ## Topics Covered
 
@@ -87,11 +87,6 @@ To access and explore the Windows Recovery Environment and understand the recove
 * Troubleshooting Environment
 * System Recovery Options
 
-<p align="center">
-  <img src="./Windows Recovery Environment.png"
-       alt="Windows Recovery Environment"
-       width="900"/>
-</p>
 
 ## Observations
 
@@ -100,7 +95,7 @@ During the practical:
 * Accessed the Windows Recovery Environment (WinRE).
 * Explored the "Choose an Option" recovery screen.
 * Navigated through Advanced Startup Options.
-* Reviewed available recovery tools such as Startup Settings, Command Prompt, System Restore, and Uninstall Updates.
+* Reviewed available recovery tools such as Startup Settings, Command Prompt, System Restore, Startup Repair, and Uninstall Updates.
 * Understood how WinRE provides a safe environment for troubleshooting startup failures.
 
 ## Skills Gained
@@ -130,11 +125,6 @@ To understand how Safe Mode works and how it can be used to diagnose startup iss
 * Software Conflict Identification
 * Minimal Windows Environment
 
-<p align="center">
-  <img src="./Safe Mode Troubleshooting.png"
-       alt="Safe Mode Troubleshooting"
-       width="900"/>
-</p>
 
 ## Observations
 
@@ -174,11 +164,6 @@ To explore Startup Repair and other Windows recovery tools used to diagnose and 
 * Automated Repair Process
 * Windows Recovery Tools
 
-<p align="center">
-  <img src="./Startup Repair.png"
-       alt="Startup Repair"
-       width="900"/>
-</p>
 
 ## Observations
 
@@ -218,7 +203,7 @@ This practical provided hands-on experience with Windows startup troubleshooting
 * Startup Repair
 * Basic IT Support Troubleshooting
 
-By completing this practical, foundational skills required for IT Support, Help Desk, System Administration, SOC Operations, and Cybersecurity roles were developed through practical exposure to Windows startup troubleshooting techniques.
+By completing this practical, foundational skills relevant to IT Support, Help Desk, System Administration, SOC Operations, and Cybersecurity roles were developed through hands-on exposure to Windows startup troubleshooting techniques.
 
 ## Video Demonstration
 
