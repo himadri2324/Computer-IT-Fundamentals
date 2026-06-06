@@ -99,12 +99,6 @@ To access and explore the Windows Recovery Environment (WinRE) and understand th
        width="900"/>
 </p>
 
-<p align="center">
-  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/WinRE%20Advanced%20Options.png"
-       alt="Windows Recovery Environment Advanced Options"
-       width="900"/>
-</p>
-
 ## Observations
 
 During the practical:
@@ -181,6 +175,11 @@ To explore Startup Repair and other Windows recovery tools used to diagnose and 
 * Automated Repair Process
 * Windows Recovery Tools
 
+<p align="center">
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/WinRE%20Advanced%20Options.png"
+       alt="Windows Recovery Environment Advanced Options"
+       width="900"/>
+</p>
 
 ## Observations
 
