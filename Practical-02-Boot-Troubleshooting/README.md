@@ -48,6 +48,12 @@ To understand how Windows starts up, identify common boot issues, and explore ba
        width="900"/>
 </p>
 
+<p align="center">
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/Event%20Viewer%20Analysis.png"
+       alt="Event Viewer Analysis"
+       width="900"/>
+</p>
+
 ## Observations
 
 During the practical:
@@ -87,6 +93,17 @@ To access and explore the Windows Recovery Environment (WinRE) and understand th
 * Troubleshooting Environment
 * System Recovery Options
 
+<p align="center">
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/WinRE%20Main%20Menu.png"
+       alt="Windows Recovery Environment Main Menu"
+       width="900"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/WinRE%20Advanced%20Options.png"
+       alt="Windows Recovery Environment Advanced Options"
+       width="900"/>
+</p>
 
 ## Observations
 
@@ -245,9 +262,9 @@ Practical-02-Boot-Troubleshooting/
 ├── README.md
 ├── Boot Troubleshooting Infographics.png
 ├── Startup Apps Analysis.png
-├── Windows Recovery Environment.png
-├── Safe Mode Troubleshooting.png
-├── Startup Repair.png
+├── Event Viewer Analysis.png
+├── WinRE Main Menu.png
+├── WinRE Advanced Options.png
 ```
 
 ---
@@ -260,4 +277,4 @@ Practical-02-Boot-Troubleshooting/
 
 # License
 
-This project is intended for educational and learning purposes only.
+This practical is intended for educational and learning purposes only.
