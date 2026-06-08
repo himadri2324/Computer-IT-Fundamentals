@@ -1,4 +1,4 @@
-# Practical 1: System Monitoring & Performance Analysis in Windows
+# Practical 1: Windows System Monitoring
 
 ## Overview
 
@@ -51,7 +51,7 @@ After completing this practical, I was able to:
 
 ---
 
-# Part 1: Exploring Task Manager & Active Processes
+# Part 1: Task Manager & Processes
 
 ## Objective
 
@@ -94,7 +94,7 @@ https://www.youtube.com/watch?v=JDDLWTWSuu4
 
 ---
 
-# Part 2: CPU Monitoring & Analysis
+# Part 2: CPU Monitoring 
 
 ## Objective
 
@@ -137,7 +137,7 @@ https://www.youtube.com/watch?v=6yCZnJb1RW4
 
 ---
 
-# Part 3: Memory Utilization Analysis
+# Part 3: Memory Monitoring
 
 ## Objective
 
@@ -179,7 +179,7 @@ https://www.youtube.com/watch?v=Ej5Fs2gzOak
 
 ---
 
-# Part 4: Disk Activity Monitoring
+# Part 4: Disk Monitoring
 
 ## Objective
 
@@ -221,7 +221,7 @@ https://www.youtube.com/watch?v=fY2IVV1plcY
 
 ---
 
-# Part 5: Advanced Analysis Using Resource Monitor
+# Part 5: Resource Monitor
 
 ## Objective
 
