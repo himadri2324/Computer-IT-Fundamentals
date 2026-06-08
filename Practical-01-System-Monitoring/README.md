@@ -2,9 +2,9 @@
 
 ## Overview
 
-This practical focuses on monitoring and analyzing system performance in Microsoft Windows using **Task Manager** and **Resource Monitor**. The objective is to understand how CPU, memory, and disk resources are utilized by the operating system and applications in real time.
+This practical focuses on understanding how Windows utilizes system resources in real time using **Task Manager** and **Resource Monitor**.
 
-Through hands-on observation and analysis, this practical helps develop foundational troubleshooting skills required in IT Support, System Administration, SOC Operations, and Cybersecurity roles.
+The objective was to observe active processes, monitor CPU, memory, and disk usage, and understand how Windows presents performance-related information. This exercise provides a foundation for troubleshooting and performance analysis, which are important skills in IT Support, System Administration, SOC Operations, and Cybersecurity.
 
 <p align="center">
   <img src="./System monitoring infographic.png"
@@ -14,16 +14,29 @@ Through hands-on observation and analysis, this practical helps develop foundati
 
 ---
 
-## Learning Objectives
+# Learning Objectives
 
-After completing this practical, you will be able to:
+After completing this practical, I was able to:
 
-- Monitor CPU utilization and identify high resource-consuming processes.
-- Analyze memory usage, cached memory, and virtual memory behavior.
-- Observe disk activity and storage performance in real time.
-- Use Task Manager for basic performance monitoring.
-- Use Resource Monitor for advanced system analysis.
-- Perform basic troubleshooting based on system resource utilization.
+* Navigate different sections of Windows Task Manager.
+* Identify running applications and background processes.
+* Monitor CPU utilization in real time.
+* Analyze memory usage and available RAM.
+* Observe disk activity and storage performance metrics.
+* Use Resource Monitor for more detailed system analysis.
+* Understand how system resources are consumed by processes and services.
+
+---
+
+# Practical Summary
+
+| Area                | Activity Performed                                     | Tool Used        | Learning Outcome                                    |
+| ------------------- | ------------------------------------------------------ | ---------------- | --------------------------------------------------- |
+| Process Monitoring  | Reviewed running applications and background processes | Task Manager     | Understood how Windows manages active processes     |
+| CPU Analysis        | Monitored processor utilization and performance graphs | Task Manager     | Learned how CPU activity changes over time          |
+| Memory Analysis     | Reviewed memory consumption and available memory       | Task Manager     | Understood RAM allocation and utilization           |
+| Disk Monitoring     | Observed disk activity and transfer rates              | Task Manager     | Learned how storage resources are used              |
+| Advanced Monitoring | Examined detailed resource information                 | Resource Monitor | Gained deeper visibility into system resource usage |
 
 ---
 
@@ -31,18 +44,16 @@ After completing this practical, you will be able to:
 
 ## Objective
 
-To understand the Windows Task Manager interface and monitor active processes consuming system resources.
+To become familiar with the Task Manager interface and understand how Windows displays running applications, background processes, and resource consumption.
 
-## Topics Covered
+## Activities Performed
 
-- Opening Task Manager
-- Understanding Processes Tab
-- Background Processes
-- Windows Processes
-- CPU Usage Monitoring
-- Memory Consumption Monitoring
-- Process Identification
-- Real-Time Resource Usage
+* Opened Windows Task Manager.
+* Explored the **Processes** tab.
+* Reviewed currently running applications.
+* Observed background processes running in the system.
+* Examined CPU, Memory, and Disk usage values for individual processes.
+* Identified applications consuming more system resources.
 
 <p align="center">
   <img src="./Task Manager Processes.png"
@@ -50,15 +61,24 @@ To understand the Windows Task Manager interface and monitor active processes co
        width="900"/>
 </p>
 
-## Skills Gained
+## Key Observations
 
-- Process Monitoring
-- Resource Utilization Analysis
-- Basic Windows Troubleshooting
+| Observation          | Description                                                               |
+| -------------------- | ------------------------------------------------------------------------- |
+| Running Applications | Multiple user applications were visible in the Apps section.              |
+| Background Processes | Windows services and supporting processes were running in the background. |
+| Resource Usage       | Each process displayed its current CPU, Memory, and Disk consumption.     |
+| Process Visibility   | Task Manager provided a quick overview of system activity.                |
+
+## Skills Developed
+
+* Process Identification
+* Basic Performance Monitoring
+* Resource Usage Analysis
 
 ## Video Demonstration
 
-**Video Link:**  
+**Video Link:**
 https://www.youtube.com/watch?v=JDDLWTWSuu4
 
 ---
@@ -67,16 +87,16 @@ https://www.youtube.com/watch?v=JDDLWTWSuu4
 
 ## Objective
 
-To monitor CPU utilization and understand how processor-intensive applications affect system performance.
+To understand CPU utilization information available in Task Manager and observe processor activity in real time.
 
-## Topics Covered
+## Activities Performed
 
-- CPU Usage Monitoring
-- Processor Load Analysis
-- Process-Level CPU Consumption
-- Multi-Core CPU Activity
-- Performance Impact Assessment
-- Troubleshooting High CPU Usage
+* Opened the **Performance** tab.
+* Selected the **CPU** section.
+* Observed the CPU utilization graph.
+* Reviewed processor specifications displayed by Windows.
+* Monitored CPU usage percentage and processor speed.
+* Examined information such as processes, threads, handles, and uptime.
 
 <p align="center">
   <img src="./CPU Monitoring.png"
@@ -84,23 +104,24 @@ To monitor CPU utilization and understand how processor-intensive applications a
        width="900"/>
 </p>
 
-## Observations
+## Key Observations
 
-During the practical:
+| Observation           | Description                                                          |
+| --------------------- | -------------------------------------------------------------------- |
+| CPU Utilization       | Real-time processor usage was displayed through a performance graph. |
+| Processor Information | Windows displayed CPU model, core count, and logical processors.     |
+| System Activity       | CPU usage fluctuated based on running tasks and background activity. |
+| Performance View      | Historical CPU usage was visible over the previous 60 seconds.       |
 
-- Identified applications consuming high CPU resources.
-- Monitored CPU utilization changes during application execution.
-- Observed how system responsiveness changes under heavy CPU load.
+## Skills Developed
 
-## Skills Gained
-
-- CPU Performance Analysis
-- System Performance Troubleshooting
-- Resource Bottleneck Identification
+* CPU Performance Monitoring
+* Performance Graph Interpretation
+* System Resource Analysis
 
 ## Video Demonstration
 
-**Video Link:**  
+**Video Link:**
 https://www.youtube.com/watch?v=6yCZnJb1RW4
 
 ---
@@ -109,16 +130,15 @@ https://www.youtube.com/watch?v=6yCZnJb1RW4
 
 ## Objective
 
-To analyze RAM usage and understand how memory affects overall system performance.
+To understand how Windows reports memory utilization and how RAM is allocated across the system.
 
-## Topics Covered
+## Activities Performed
 
-- Memory Usage Monitoring
-- RAM Consumption Analysis
-- Cached Memory
-- Available Memory
-- Virtual Memory
-- Memory Pressure Observation
+* Opened the **Memory** section under the Performance tab.
+* Reviewed total installed memory.
+* Observed memory currently in use.
+* Examined available and cached memory values.
+* Reviewed memory speed and hardware-related information.
 
 <p align="center">
   <img src="./Memory Monitoring.png"
@@ -126,23 +146,24 @@ To analyze RAM usage and understand how memory affects overall system performanc
        width="900"/>
 </p>
 
-## Observations
+## Key Observations
 
-During the practical:
+| Observation        | Description                                                         |
+| ------------------ | ------------------------------------------------------------------- |
+| Memory Usage       | Windows displayed current RAM utilization.                          |
+| Available Memory   | Remaining memory available to the system was visible.               |
+| Cached Memory      | Cached memory information was displayed separately.                 |
+| Memory Composition | Task Manager provided a visual representation of memory allocation. |
 
-- Monitored memory utilization in real time.
-- Identified applications consuming significant memory resources.
-- Observed the relationship between memory availability and system responsiveness.
+## Skills Developed
 
-## Skills Gained
-
-- Memory Management Analysis
-- RAM Usage Monitoring
-- Performance Troubleshooting
+* Memory Monitoring
+* RAM Utilization Analysis
+* Performance Observation
 
 ## Video Demonstration
 
-**Video Link:**  
+**Video Link:**
 https://www.youtube.com/watch?v=Ej5Fs2gzOak
 
 ---
@@ -151,16 +172,15 @@ https://www.youtube.com/watch?v=Ej5Fs2gzOak
 
 ## Objective
 
-To monitor storage performance and analyze disk activity using Task Manager.
+To observe storage performance metrics and understand disk activity information provided by Windows.
 
-## Topics Covered
+## Activities Performed
 
-- Disk Usage Monitoring
-- Read Operations
-- Write Operations
-- Disk Response Time
-- Storage Performance Analysis
-- Real-Time Disk Activity
+* Opened the **Disk 0 (C:)** performance section.
+* Monitored disk activity graphs.
+* Reviewed read and write speeds.
+* Observed active time and response time metrics.
+* Examined storage device information displayed by Windows.
 
 <p align="center">
   <img src="./Disk Monitoring.png"
@@ -168,23 +188,24 @@ To monitor storage performance and analyze disk activity using Task Manager.
        width="900"/>
 </p>
 
-## Observations
+## Key Observations
 
-During the practical:
+| Observation         | Description                                               |
+| ------------------- | --------------------------------------------------------- |
+| Active Time         | Displayed how actively the storage device was being used. |
+| Read/Write Activity | Real-time disk transfer activity was visible.             |
+| Response Time       | Storage response metrics were displayed.                  |
+| Device Information  | Disk type and capacity information were available.        |
 
-- Monitored active disk usage.
-- Analyzed read/write operations generated by applications.
-- Observed disk utilization during file transfers and application execution.
+## Skills Developed
 
-## Skills Gained
-
-- Disk Performance Analysis
-- Storage Monitoring
-- Troubleshooting Disk Bottlenecks
+* Disk Performance Monitoring
+* Storage Activity Analysis
+* System Performance Observation
 
 ## Video Demonstration
 
-**Video Link:**  
+**Video Link:**
 https://www.youtube.com/watch?v=fY2IVV1plcY
 
 ---
@@ -193,17 +214,25 @@ https://www.youtube.com/watch?v=fY2IVV1plcY
 
 ## Objective
 
-To perform advanced system monitoring using Windows Resource Monitor.
+To use Windows Resource Monitor for a more detailed view of resource consumption by processes and services.
+
+## Activities Performed
+
+* Opened Resource Monitor.
+* Explored CPU-related information.
+* Reviewed memory usage details.
+* Examined disk activity information.
+* Observed resource statistics at the process level.
 
 ---
 
-## CPU Monitoring
+## CPU Analysis
 
-### Topics Covered
+### Topics Reviewed
 
-- Process-Level CPU Activity
-- Service Utilization
-- Thread Monitoring
+* Running Processes
+* CPU Activity Information
+* Process-Level Resource Usage
 
 <p align="center">
   <img src="./Resource Monitor CPU Analysis.png"
@@ -213,13 +242,14 @@ To perform advanced system monitoring using Windows Resource Monitor.
 
 ---
 
-## Memory Monitoring
+## Memory Analysis
 
-### Topics Covered
+### Topics Reviewed
 
-- Physical Memory Usage
-- Hard Faults
-- Memory Allocation Analysis
+* Physical Memory Usage
+* Available Memory
+* Memory Allocation Information
+* Hard Fault Statistics
 
 <p align="center">
   <img src="./Resource Monitor Memory Analysis.png"
@@ -229,13 +259,14 @@ To perform advanced system monitoring using Windows Resource Monitor.
 
 ---
 
-## Disk Monitoring
+## Disk Analysis
 
-### Topics Covered
+### Topics Reviewed
 
-- Disk Queue Length
-- Disk Activity
-- File-Level Operations
+* Disk Activity
+* Read Operations
+* Write Operations
+* Process-Level Disk Usage
 
 <p align="center">
   <img src="./Resource Monitor Disk Analysis.png"
@@ -245,67 +276,58 @@ To perform advanced system monitoring using Windows Resource Monitor.
 
 ---
 
-## Additional Features
+## Key Learning from Resource Monitor
 
-- Handle Monitoring
-- Service Monitoring
-- Resource Dependencies
-- Real-Time System Activity
+Resource Monitor provided a more detailed view of system activity compared to Task Manager. It allowed observation of how individual processes were utilizing memory and other system resources, making it easier to understand overall system behavior.
 
-## Skills Gained
+## Skills Developed
 
-- Advanced System Monitoring
-- Detailed Performance Analysis
-- Root Cause Investigation
-- Troubleshooting Methodology
+* Advanced Resource Monitoring
+* Process-Level Analysis
+* Windows Performance Observation
 
 ## Video Demonstration
 
-**Video Link:**  
+**Video Link:**
 https://www.youtube.com/watch?v=PPOuzXYHJ6k
 
 ---
 
-# Overall Practical Summary
+# Overall Learning Outcome
 
-This practical provided hands-on experience with Windows system monitoring tools, specifically **Task Manager** and **Resource Monitor**.
+This practical provided hands-on experience with two important Windows monitoring tools: **Task Manager** and **Resource Monitor**.
 
-### Areas Covered
+Through this exercise, I learned how to:
 
-- Process Monitoring
-- CPU Utilization Analysis
-- Memory Usage Analysis
-- Disk Activity Monitoring
-- Advanced Resource Monitoring
-- Performance Troubleshooting
+* Monitor running processes.
+* Analyze CPU performance metrics.
+* Understand memory utilization.
+* Observe disk activity.
+* Navigate Windows performance monitoring tools.
+* Interpret resource usage information presented by Windows.
 
-By completing this practical, foundational skills required for IT Operations, System Administration, SOC Analysis, and Cybersecurity roles were developed through real-time monitoring and analysis of Windows system resources.
-
-## Video Demonstration
-
-**Video Link:**  
-https://www.youtube.com/watch?v=60Z6rrYAa00
+These are foundational skills that support further learning in IT Operations, System Administration, SOC Analysis, and Cybersecurity.
 
 ---
 
 # Tools Used
 
-| Tool | Purpose |
-|--------|----------|
-| Task Manager | Monitor processes, CPU, memory, and disk usage |
-| Resource Monitor | Advanced analysis of CPU, memory, disk, and services |
-| Windows OS | Platform for performance monitoring |
+| Tool                     | Purpose                                    |
+| ------------------------ | ------------------------------------------ |
+| Task Manager             | Monitor processes and system performance   |
+| Resource Monitor         | Detailed analysis of resource utilization  |
+| Windows Operating System | Environment used for monitoring activities |
 
 ---
 
 # Key Takeaways
 
-- Task Manager provides quick visibility into system resource utilization.
-- CPU monitoring helps identify performance bottlenecks.
-- Memory analysis improves understanding of system responsiveness.
-- Disk monitoring assists in troubleshooting storage-related issues.
-- Resource Monitor provides deeper visibility into process-level resource consumption.
-- Continuous monitoring is essential for effective troubleshooting and performance optimization.
+* Task Manager provides a quick overview of system resource usage.
+* CPU performance graphs help visualize processor activity.
+* Memory monitoring helps understand RAM utilization.
+* Disk monitoring provides visibility into storage activity.
+* Resource Monitor offers more detailed information than Task Manager.
+* Understanding resource usage is an important first step in troubleshooting performance issues.
 
 ---
 
