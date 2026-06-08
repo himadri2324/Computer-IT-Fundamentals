@@ -4,7 +4,7 @@
 
 This practical focuses on understanding how Windows utilizes system resources in real time using **Task Manager** and **Resource Monitor**.
 
-The objective was to observe active processes, monitor CPU, memory, and disk usage, and understand how Windows presents performance-related information. This exercise provides a foundation for troubleshooting and performance analysis, which are important skills in IT Support, System Administration, SOC Operations, and Cybersecurity.
+The objective was to observe active processes, monitor CPU, memory, and disk usage, and understand how Windows presents performance related information. This exercise provides a foundation for troubleshooting and performance analysis, which are important skills in IT Support, System Administration, SOC Operations, and Cybersecurity.
 
 <p align="center">
   <img src="./System monitoring infographic.png"
@@ -119,7 +119,7 @@ To understand CPU utilization information available in Task Manager and observe 
 
 | Observation           | Description                                                          |
 | --------------------- | -------------------------------------------------------------------- |
-| CPU Utilization       | Real-time processor usage was displayed through a performance graph. |
+| CPU Utilization       | Real time processor usage was displayed through a performance graph. |
 | Processor Information | Windows displayed CPU model, core count, and logical processors.     |
 | System Activity       | CPU usage fluctuated based on running tasks and background activity. |
 | Performance View      | Historical CPU usage was visible over the previous 60 seconds.       |
@@ -149,7 +149,7 @@ To understand how Windows reports memory utilization and how RAM is allocated ac
 * Reviewed total installed memory.
 * Observed memory currently in use.
 * Examined available and cached memory values.
-* Reviewed memory speed and hardware-related information.
+* Reviewed memory speed and hardware related information.
 
 <p align="center">
   <img src="./Memory Monitoring.png"
@@ -204,7 +204,7 @@ To observe storage performance metrics and understand disk activity information 
 | Observation         | Description                                               |
 | ------------------- | --------------------------------------------------------- |
 | Active Time         | Displayed how actively the storage device was being used. |
-| Read/Write Activity | Real-time disk transfer activity was visible.             |
+| Read/Write Activity | Real time disk transfer activity was visible.             |
 | Response Time       | Storage response metrics were displayed.                  |
 | Device Information  | Disk type and capacity information were available.        |
 
@@ -230,7 +230,7 @@ To use Windows Resource Monitor for a more detailed view of resource consumption
 ## Activities Performed
 
 * Opened Resource Monitor.
-* Explored CPU-related information.
+* Explored CPU related information.
 * Reviewed memory usage details.
 * Examined disk activity information.
 * Observed resource statistics at the process level.
@@ -243,7 +243,7 @@ To use Windows Resource Monitor for a more detailed view of resource consumption
 
 * Running Processes
 * CPU Activity Information
-* Process-Level Resource Usage
+* Process Level Resource Usage
 
 <p align="center">
   <img src="./Resource Monitor CPU Analysis.png"
@@ -277,7 +277,7 @@ To use Windows Resource Monitor for a more detailed view of resource consumption
 * Disk Activity
 * Read Operations
 * Write Operations
-* Process-Level Disk Usage
+* Process Level Disk Usage
 
 <p align="center">
   <img src="./Resource Monitor Disk Analysis.png"
@@ -294,7 +294,7 @@ Resource Monitor provided a more detailed view of system activity compared to Ta
 ## Skills Developed
 
 * Advanced Resource Monitoring
-* Process-Level Analysis
+* Process Level Analysis
 * Windows Performance Observation
 
 ## Video Demonstration
@@ -306,7 +306,7 @@ https://www.youtube.com/watch?v=PPOuzXYHJ6k
 
 # Overall Learning Outcome
 
-This practical provided hands-on experience with two important Windows monitoring tools: **Task Manager** and **Resource Monitor**.
+This practical provided hands on experience with two important Windows monitoring tools: **Task Manager** and **Resource Monitor**.
 
 Through this exercise, I learned how to:
 
