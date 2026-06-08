@@ -28,6 +28,17 @@ After completing this practical, I was able to:
 
 ---
 
+## 🎬 Demonstration
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=60Z6rrYAa00" target="_blank">
+    <img src="https://img.icons8.com/color/96/video.png" alt="Watch Demo" />
+    <br>
+    <strong>Click to watch the demonstration video</strong>
+  </a>
+</p>
+
+---
+
 # Practical Summary
 
 | Area                | Activity Performed                                     | Tool Used        | Learning Outcome                                    |
