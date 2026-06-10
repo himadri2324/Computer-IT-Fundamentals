@@ -29,6 +29,17 @@ After completing this practical, I was able to:
 
 ---
 
+## 🎬 Demonstration
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=hV8pe57Sy8M" target="_blank">
+    <img src="https://img.icons8.com/color/96/video.png" alt="Watch Demo" />
+    <br>
+    <strong>Click to watch the demonstration video</strong>
+  </a>
+</p>
+
+---
+
 # Part 1: Understanding the Windows Boot Process
 
 ## Objective
@@ -215,11 +226,6 @@ This practical provided hands-on exposure to Windows startup troubleshooting too
 | Recovery Tools       | Startup Repair |
 
 Through this practical, I gained a better understanding of how Windows startup issues can be investigated and how built-in recovery tools support troubleshooting in real-world IT support scenarios.
-
-## Full Practical Video
-
-**Video Link:**
-https://www.youtube.com/watch?v=hV8pe57Sy8M
 
 ---
 
