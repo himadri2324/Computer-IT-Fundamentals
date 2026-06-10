@@ -2,7 +2,9 @@
 
 ## Overview
 
-This practical focuses on understanding the Windows boot process and learning how to diagnose and troubleshoot startup-related issues using built-in Windows recovery and diagnostic tools.
+This practical focuses on understanding the Windows boot process and learning how startup-related issues can be diagnosed using built-in Windows troubleshooting and recovery tools.
+
+During this practical, I explored startup applications, reviewed system startup events using Event Viewer, accessed the Windows Recovery Environment (WinRE), booted into Safe Mode, and examined Startup Repair options available in Windows.
 
 <p align="center">
   <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/Boot%20Troubleshooting%20Infographics.png"
@@ -14,16 +16,16 @@ This practical focuses on understanding the Windows boot process and learning ho
 
 ## Learning Objectives
 
-After completing this practical, you will be able to:
+After completing this practical, I was able to:
 
-* Understand the Windows boot process.
+* Understand the basic Windows startup process.
 * Identify common startup and boot-related issues.
-* Analyze startup applications and startup errors.
-* Use Event Viewer to investigate startup problems.
+* Review startup applications that may affect boot performance.
+* Analyze startup-related events using Event Viewer.
 * Access and navigate Windows Recovery Environment (WinRE).
-* Use Safe Mode to diagnose software and driver-related issues.
-* Utilize Startup Repair to troubleshoot startup failures.
-* Apply troubleshooting techniques used in real-world IT support environments.
+* Explore Safe Mode and its troubleshooting purpose.
+* Understand how Startup Repair is used to resolve startup problems.
+* Apply a structured troubleshooting approach used in IT support environments.
 
 ---
 
@@ -31,16 +33,18 @@ After completing this practical, you will be able to:
 
 ## Objective
 
-To understand how Windows starts up, identify common boot issues, and explore basic troubleshooting techniques used by IT support professionals.
+To understand how Windows starts, identify common startup issues, and explore tools that help investigate startup-related problems.
 
 ## Topics Covered
 
-* Windows Boot Process
-* Startup Sequence
-* Common Boot Issues
-* Startup Applications
-* Event Viewer Analysis
-* Basic Troubleshooting Techniques
+| Topic                | Description                                     |
+| -------------------- | ----------------------------------------------- |
+| Windows Boot Process | Overview of how Windows starts                  |
+| Startup Applications | Programs configured to launch at startup        |
+| Event Viewer         | Reviewing startup-related logs                  |
+| Common Boot Issues   | Typical startup problems encountered in Windows |
+
+### Startup Applications Analysis
 
 <p align="center">
   <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/Startup%20Apps%20Analysis.png"
@@ -48,27 +52,25 @@ To understand how Windows starts up, identify common boot issues, and explore ba
        width="900"/>
 </p>
 
+### Event Viewer Analysis
+
 <p align="center">
   <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/Event%20Viewer%20Analysis.png"
        alt="Event Viewer Analysis"
        width="900"/>
 </p>
 
-## Observations
+## What I Did
 
-During the practical:
-
-* Explored the Windows startup process and common startup-related issues.
-* Reviewed Startup Apps using Task Manager and analyzed their startup impact.
-* Identified applications configured to launch automatically during system startup.
-* Investigated startup-related events using Event Viewer.
-* Examined warning, information, and error logs generated during startup.
-* Learned how Event Viewer can assist in identifying boot and service-related issues.
+* Opened Task Manager and reviewed Startup Apps.
+* Examined applications configured to run during startup.
+* Opened Event Viewer and navigated to Windows Logs → System.
+* Reviewed informational, warning, and error events related to system startup.
+* Observed how Event Viewer can be used to investigate startup-related issues.
 
 ## Skills Gained
 
-* Windows Boot Process Understanding
-* Startup Analysis
+* Startup Application Analysis
 * Event Log Investigation
 * Basic Troubleshooting Methodology
 
@@ -83,15 +85,19 @@ https://www.youtube.com/watch?v=1KqUqRt0vxU
 
 ## Objective
 
-To access and explore the Windows Recovery Environment (WinRE) and understand the recovery tools available for startup troubleshooting.
+To access Windows Recovery Environment and explore the recovery options available for startup troubleshooting.
 
 ## Topics Covered
 
-* Windows Recovery Environment (WinRE)
-* Advanced Startup Options
-* Recovery Tools
-* Troubleshooting Environment
-* System Recovery Options
+| Tool / Option    | Purpose                    |
+| ---------------- | -------------------------- |
+| Troubleshoot     | Access recovery tools      |
+| Startup Settings | Configure startup behavior |
+| Command Prompt   | Advanced troubleshooting   |
+| System Restore   | Restore system state       |
+| Startup Repair   | Repair startup issues      |
+
+### WinRE Main Menu
 
 <p align="center">
   <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/WinRE%20Main%20Menu.png"
@@ -99,21 +105,27 @@ To access and explore the Windows Recovery Environment (WinRE) and understand th
        width="900"/>
 </p>
 
-## Observations
+### Advanced Recovery Options
 
-During the practical:
+<p align="center">
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/WinRE%20Advanced%20Options.png"
+       alt="Windows Recovery Environment Advanced Options"
+       width="900"/>
+</p>
 
-* Accessed the Windows Recovery Environment (WinRE).
-* Explored the "Choose an Option" recovery screen.
-* Navigated through Advanced Startup Options.
-* Reviewed available recovery tools such as Startup Settings, Command Prompt, System Restore, Startup Repair, and Uninstall Updates.
-* Understood how WinRE provides a safe environment for troubleshooting startup failures.
+## What I Did
+
+* Accessed Windows Recovery Environment.
+* Explored the "Choose an Option" screen.
+* Navigated through Advanced Options.
+* Reviewed available recovery and troubleshooting tools.
+* Examined Startup Settings and Startup Repair options.
 
 ## Skills Gained
 
 * Recovery Environment Navigation
-* Startup Recovery Techniques
-* Windows Troubleshooting Fundamentals
+* Windows Recovery Fundamentals
+* Startup Troubleshooting Awareness
 
 ## Video Demonstration
 
@@ -126,33 +138,27 @@ https://www.youtube.com/watch?v=r2iXtMtaI9o
 
 ## Objective
 
-To understand how Safe Mode works and how it can be used to diagnose startup issues, software conflicts, and driver-related problems.
+To understand the purpose of Safe Mode and how it assists in troubleshooting startup-related problems.
 
 ## Topics Covered
 
-* Safe Mode Basics
+* Safe Mode
 * Startup Diagnostics
 * Driver Troubleshooting
-* Software Conflict Identification
-* Minimal Windows Environment
+* Software Conflict Isolation
 
+## What I Did
 
-## Observations
-
-During the practical:
-
-* Booted Windows into Safe Mode.
-* Observed how Windows loads only essential drivers and services.
-* Explored troubleshooting scenarios involving software conflicts.
-* Reviewed methods for identifying problematic drivers and applications.
-* Learned how Safe Mode helps isolate issues that prevent normal startup.
+* Accessed Startup Settings through WinRE.
+* Reviewed Safe Mode startup options.
+* Explored how Safe Mode loads Windows with minimal drivers and services.
+* Discussed situations where Safe Mode can be used during troubleshooting.
 
 ## Skills Gained
 
 * Safe Mode Navigation
-* Driver Troubleshooting
-* Software Conflict Analysis
-* Startup Issue Diagnosis
+* Driver Troubleshooting Concepts
+* Software Conflict Investigation
 
 ## Video Demonstration
 
@@ -165,38 +171,27 @@ https://www.youtube.com/watch?v=NhbmJymmFmk
 
 ## Objective
 
-To explore Startup Repair and other Windows recovery tools used to diagnose and resolve startup-related issues safely.
+To understand the purpose of Startup Repair and review how Windows recovery tools can assist in resolving startup problems.
 
 ## Topics Covered
 
 * Startup Repair
 * Recovery Options
 * Startup Diagnostics
-* Automated Repair Process
 * Windows Recovery Tools
 
-<p align="center">
-  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-02-Boot-Troubleshooting/WinRE%20Advanced%20Options.png"
-       alt="Windows Recovery Environment Advanced Options"
-       width="900"/>
-</p>
+## What I Did
 
-## Observations
-
-During the practical:
-
-* Explored Startup Repair within WinRE.
-* Reviewed how Windows automatically detects startup-related issues.
-* Examined recovery options available for troubleshooting boot failures.
-* Learned how Startup Repair assists in restoring normal system startup.
-* Understood when Startup Repair should be used during troubleshooting.
+* Explored Startup Repair from the Advanced Options menu.
+* Reviewed how Startup Repair checks for startup-related issues.
+* Examined the role of Startup Repair in recovering Windows startup functionality.
+* Discussed when Startup Repair should be used during troubleshooting.
 
 ## Skills Gained
 
-* Startup Repair Usage
-* Recovery Tool Analysis
-* Startup Issue Resolution
-* Windows Recovery Fundamentals
+* Startup Repair Awareness
+* Recovery Tool Familiarity
+* Windows Startup Troubleshooting Concepts
 
 ## Video Demonstration
 
@@ -207,21 +202,21 @@ https://www.youtube.com/watch?v=5S9nVxuuLvY
 
 # Overall Practical Summary
 
-This practical provided hands-on experience with Windows startup troubleshooting and recovery tools.
+This practical provided hands-on exposure to Windows startup troubleshooting tools and recovery options.
 
 ### Areas Covered
 
-* Windows Boot Process
-* Startup Applications Analysis
-* Event Viewer Investigation
-* Windows Recovery Environment (WinRE)
-* Safe Mode Troubleshooting
-* Startup Repair
-* Basic IT Support Troubleshooting
+| Area                 | Tool / Method  |
+| -------------------- | -------------- |
+| Startup Analysis     | Task Manager   |
+| Log Analysis         | Event Viewer   |
+| Recovery Environment | WinRE          |
+| Startup Diagnostics  | Safe Mode      |
+| Recovery Tools       | Startup Repair |
 
-By completing this practical, foundational skills relevant to IT Support, Help Desk, System Administration, SOC Operations, and Cybersecurity roles were developed through hands-on exposure to Windows startup troubleshooting techniques.
+Through this practical, I gained a better understanding of how Windows startup issues can be investigated and how built-in recovery tools support troubleshooting in real-world IT support scenarios.
 
-## Video Demonstration
+## Full Practical Video
 
 **Video Link:**
 https://www.youtube.com/watch?v=hV8pe57Sy8M
@@ -230,26 +225,25 @@ https://www.youtube.com/watch?v=hV8pe57Sy8M
 
 # Tools Used
 
-| Tool                                 | Purpose                                     |
-| ------------------------------------ | ------------------------------------------- |
-| Task Manager                         | Analyze startup applications                |
-| Event Viewer                         | Investigate startup-related logs and errors |
-| Windows Recovery Environment (WinRE) | Access recovery and troubleshooting tools   |
-| Safe Mode                            | Diagnose software and driver-related issues |
-| Startup Repair                       | Automatically repair startup problems       |
-| Windows OS                           | Platform for troubleshooting and recovery   |
+| Tool                                 | Purpose                       |
+| ------------------------------------ | ----------------------------- |
+| Task Manager                         | Analyze startup applications  |
+| Event Viewer                         | Review startup-related events |
+| Windows Recovery Environment (WinRE) | Access recovery tools         |
+| Safe Mode                            | Troubleshoot startup issues   |
+| Startup Repair                       | Diagnose startup problems     |
+| Windows OS                           | Practical environment         |
 
 ---
 
 # Key Takeaways
 
-* Understanding the Windows boot process is essential for troubleshooting startup problems.
-* Startup applications can significantly impact boot performance and startup times.
-* Event Viewer helps identify startup-related warnings, errors, and service failures.
-* Windows Recovery Environment provides powerful recovery and troubleshooting tools.
-* Safe Mode is effective for isolating software conflicts and driver-related issues.
-* Startup Repair can automatically resolve common startup failures.
-* Structured troubleshooting is a fundamental skill for IT support professionals.
+* Startup applications can affect system startup performance.
+* Event Viewer provides useful information for troubleshooting startup issues.
+* WinRE offers several recovery and troubleshooting tools.
+* Safe Mode helps isolate software and driver-related problems.
+* Startup Repair is one of the primary recovery options for startup failures.
+* A structured troubleshooting approach is important in IT support.
 
 ---
 
