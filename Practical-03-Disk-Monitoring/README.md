@@ -28,6 +28,7 @@ After completing this practical, you will be able to:
 
 ---
 
+
 # Part 1: Introduction to Disk Management & Partitions
 
 ## Objective
