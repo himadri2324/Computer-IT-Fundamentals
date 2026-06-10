@@ -99,7 +99,7 @@ By completing these practicals, you will learn how to:
 
 - [x] Practical 1 — Windows System Monitoring
 - [x] Practical 2 — Boot Troubleshooting
-- [ ] Practical 3 — Disk Management
+- [x] Practical 3 — Disk Management
 - [ ] Practical 4 — Windows Logs Analysis
 - [ ] Practical 5 — Registry Practice
 - [ ] Practical 6 — Process Investigation
