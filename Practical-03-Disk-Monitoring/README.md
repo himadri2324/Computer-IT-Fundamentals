@@ -2,12 +2,16 @@
 
 ## Overview
 
-This practical focuses on understanding disk management concepts in Microsoft Windows using the built-in **Disk Management** utility. The objective is to learn how storage devices are organized, how partitions are managed, and how administrators monitor and maintain storage resources.
+This practical focuses on understanding how Windows manages storage using the built-in Disk Management utility.
 
-Through hands on observation and analysis, this practical helps develop foundational skills required in IT Support, System Administration, SOC Operations, and Cybersecurity roles.
+The goal of this exercise was to explore the storage layout of a Windows system, identify different partitions, review disk and volume properties, understand how partition creation works, and learn basic storage management practices used in real-world environments.
+
+All demonstrations were performed on a production Windows system. To avoid making changes to the operating system, potentially destructive operations such as partition creation and drive formatting were explained conceptually rather than executed.
+
+This practical helps build foundational knowledge useful for IT Support, System Administration, SOC Operations, and Cybersecurity roles.
 
 <p align="center">
-  <img src="./Disk Management Overview.png"
+  <img src="./Disk management overview.png"
        alt="Disk Management Overview"
        width="900"/>
 </p>
@@ -16,15 +20,15 @@ Through hands on observation and analysis, this practical helps develop foundati
 
 ## Learning Objectives
 
-After completing this practical, you will be able to:
+After completing this practical, I was able to:
 
-* Understand the purpose of Disk Management in Windows.
-* Identify different types of partitions.
-* Analyze disk and volume properties.
-* Understand partition creation workflows.
-* Understand drive formatting concepts.
-* Apply storage management best practices.
-* Perform basic storage-related troubleshooting.
+* Navigate and use the Windows Disk Management utility.
+* Identify system partitions and understand their purpose.
+* Review disk and volume properties.
+* Understand storage capacity and utilization information.
+* Explain the partition creation workflow.
+* Understand common Windows file systems.
+* Apply basic storage management best practices.
 
 ---
 
@@ -43,42 +47,37 @@ After completing this practical, you will be able to:
 
 ## Objective
 
-To understand the Windows Disk Management utility and identify the storage components available on a system.
+To explore the Windows Disk Management utility and identify the partitions present on the system.
 
 ## Topics Covered
 
 * Opening Disk Management
-* Understanding Physical Disks
-* Understanding Volumes and Partitions
+* Understanding Disk 0
 * EFI System Partition
-* Windows Partition (C:)
+* Windows (C:) Partition
 * Recovery Partition
 * Storage Layout Overview
 
-<p align="center">
-  <img src="./Disk Management Interface.png"
-       alt="Disk Management Interface"
-       width="900"/>
-</p>
+## What Was Observed
 
-## Observations
+The system contained a single physical disk identified as Disk 0.
 
-During the practical:
+Three partitions were visible:
 
-* Identified the primary storage disk.
-* Observed system partitions used by Windows.
-* Examined partition structure and disk layout.
-* Understood the purpose of EFI and Recovery partitions.
+| Partition              | Purpose                                                     |
+| ---------------------- | ----------------------------------------------------------- |
+| EFI System Partition   | Stores boot files required to start Windows                 |
+| Windows (C:) Partition | Contains the operating system, applications, and user data  |
+| Recovery Partition     | Contains recovery tools used for troubleshooting and repair |
 
-## Skills Gained
+## Skills Developed
 
 * Disk Identification
-* Partition Analysis
+* Partition Recognition
 * Windows Storage Fundamentals
 
-## Video Demonstration
+### Video Demonstration
 
-**Video Link:**
 https://www.youtube.com/watch?v=4Me-YwBQeNc
 
 ---
@@ -87,42 +86,41 @@ https://www.youtube.com/watch?v=4Me-YwBQeNc
 
 ## Objective
 
-To analyze disk properties and understand storage utilization information available within Windows.
+To examine storage information and understand how Windows reports disk and volume details.
 
 ## Topics Covered
 
 * Drive Properties
-* Disk Properties
-* Capacity Analysis
 * Used Space
 * Free Space
-* File System Identification
-* NTFS Overview
+* Capacity Information
+* NTFS File System
+* Disk Properties
+* Volume Information
 
-<p align="center">
-  <img src="./Disk Properties Analysis.png"
-       alt="Disk Properties Analysis"
-       width="900"/>
-</p>
+## What Was Observed
 
-## Observations
+The Windows (C:) drive properties were examined to review storage utilization.
 
-During the practical:
+The following information was reviewed:
 
-* Examined disk capacity and available storage.
-* Reviewed file system information.
-* Analyzed free space and storage utilization.
-* Explored disk-level properties.
+| Property    | Description                |
+| ----------- | -------------------------- |
+| Capacity    | Total size of the volume   |
+| Used Space  | Storage currently occupied |
+| Free Space  | Available storage          |
+| File System | NTFS                       |
 
-## Skills Gained
+Disk properties were also reviewed to examine storage configuration and volume information.
+
+## Skills Developed
 
 * Storage Capacity Analysis
-* Disk Property Examination
 * File System Identification
+* Storage Information Review
 
-## Video Demonstration
+### Video Demonstration
 
-**Video Link:**
 https://www.youtube.com/watch?v=B3-iT5qsO8o
 
 ---
@@ -131,41 +129,38 @@ https://www.youtube.com/watch?v=B3-iT5qsO8o
 
 ## Objective
 
-To understand the process of creating new partitions and managing storage allocation within Windows.
+To understand how new partitions can be created using Disk Management.
 
 ## Topics Covered
 
-* Volume Shrinking
+* Shrink Volume
 * Unallocated Space
-* New Simple Volume Creation
+* New Simple Volume
 * Drive Letter Assignment
-* Volume Configuration
-* Storage Allocation Concepts
+* Volume Creation Workflow
 
-<p align="center">
-  <img src="./Partition Management.png"
-       alt="Partition Management"
-       width="900"/>
-</p>
+## What Was Demonstrated
 
-## Observations
+Since this practical was performed on a production Windows installation, no actual partitions were created.
 
-During the practical:
+Instead, the partition creation workflow was reviewed by opening the Shrink Volume option and examining the process used by Windows to calculate available shrink space.
 
-* Explored the partition creation workflow.
-* Examined how Windows creates unallocated space.
-* Understood the role of drive letters.
-* Reviewed storage allocation procedures.
+The following workflow was discussed:
 
-## Skills Gained
+1. Shrink an existing volume.
+2. Create unallocated space.
+3. Create a New Simple Volume.
+4. Assign a drive letter.
+5. Format the volume.
+
+## Skills Developed
 
 * Partition Planning
-* Storage Allocation Understanding
-* Volume Management Concepts
+* Storage Allocation Concepts
+* Volume Management Fundamentals
 
-## Video Demonstration
+### Video Demonstration
 
-**Video Link:**
 https://www.youtube.com/watch?v=VhFSs1UApEk
 
 ---
@@ -174,108 +169,117 @@ https://www.youtube.com/watch?v=VhFSs1UApEk
 
 ## Objective
 
-To understand drive formatting concepts and learn storage management best practices used in enterprise environments.
+To understand formatting concepts and review storage management practices commonly used in enterprise environments.
 
 ## Topics Covered
 
 * Drive Formatting
-* NTFS File System
-* FAT32 Overview
-* exFAT Overview
-* Data Removal During Formatting
-* Storage Monitoring
-* Backup Best Practices
-* Capacity Planning
+* NTFS
+* FAT32
+* exFAT
+* Storage Capacity Monitoring
+* Backup Practices
+* Disk Usage Monitoring
 
-<p align="center">
-  <img src="./Drive Formatting.png"
-       alt="Drive Formatting"
-       width="900"/>
-</p>
+## What Was Discussed
 
-## Observations
+Formatting was discussed conceptually without performing any formatting operations.
 
-During the practical:
+The following file systems were reviewed:
 
-* Reviewed formatting options available in Windows.
-* Compared common file systems.
-* Examined storage maintenance techniques.
-* Discussed backup and monitoring strategies.
+| File System | Common Usage                                 |
+| ----------- | -------------------------------------------- |
+| NTFS        | Default Windows file system                  |
+| FAT32       | Compatibility with older systems and devices |
+| exFAT       | External drives and removable media          |
 
-## Skills Gained
+Storage utilization was also reviewed through File Explorer to examine available and used storage space.
 
-* Storage Administration
-* File System Knowledge
-* Capacity Management
+## Storage Management Best Practices
+
+* Monitor disk usage regularly.
+* Maintain sufficient free space.
+* Perform regular backups.
+* Monitor storage device health.
+* Review storage utilization periodically.
+
+## Skills Developed
+
+* Storage Administration Fundamentals
+* File System Awareness
+* Capacity Monitoring
 * Storage Best Practices
 
-## Video Demonstration
+### Video Demonstration
 
-**Video Link:**
 https://www.youtube.com/watch?v=wNVgkByetl0
 
 ---
 
 # Overall Practical Summary
 
-This practical provided hands-on exposure to Windows Disk Management and storage administration concepts.
+This practical provided hands-on exposure to Windows Disk Management and basic storage administration concepts.
 
 ### Areas Covered
 
-* Disk Management Fundamentals
-* Partition Identification
-* Disk Property Analysis
-* Storage Capacity Monitoring
-* Partition Creation Concepts
-* Drive Formatting Concepts
-* Storage Best Practices
+| Area                | Description                                                      |
+| ------------------- | ---------------------------------------------------------------- |
+| Disk Management     | Exploring storage devices and partitions                         |
+| Partition Analysis  | Understanding EFI, Windows, and Recovery partitions              |
+| Storage Information | Reviewing capacity, free space, and file system details          |
+| Partition Workflow  | Understanding the process of creating new volumes                |
+| Formatting Concepts | Learning how formatting works and when it is used                |
+| Storage Management  | Reviewing best practices for maintaining healthy storage systems |
 
-By completing this practical, foundational skills required for IT Operations, System Administration, SOC Analysis, and Cybersecurity roles were developed through real-world storage management activities and analysis.
+By completing this practical, foundational knowledge of Windows storage management was developed through observation, analysis, and guided demonstrations using built-in Windows tools.
 
----
-
-# Tools Used
-
-| Tool            | Purpose                                        |
-| --------------- | ---------------------------------------------- |
-| Disk Management | Manage disks, partitions, and volumes          |
-| File Explorer   | View drive information and storage utilization |
-| Windows OS      | Platform for storage administration            |
+<p align="center">
+  <img src="./Disk Management.png"
+       alt="Disk Management"
+       width="900"/>
+</p>
 
 ---
 
-# Key Takeaways
+## Tools Used
 
-* Disk Management provides centralized control over storage resources.
-* Understanding partitions is essential for system administration.
-* Storage capacity monitoring helps prevent performance issues.
-* File systems determine how data is stored and managed.
-* Formatting prepares storage devices for use.
-* Proper storage management improves system reliability and performance.
+| Tool                     | Purpose                                           |
+| ------------------------ | ------------------------------------------------- |
+| Disk Management          | View disks, partitions, and storage configuration |
+| File Explorer            | Review storage utilization and drive properties   |
+| Windows Operating System | Platform used for the practical                   |
 
 ---
 
-# Repository Structure
+## Key Takeaways
+
+* Disk Management is the primary Windows utility for storage administration.
+* Understanding partition structure is important for troubleshooting and system maintenance.
+* Storage capacity should be monitored regularly to avoid performance issues.
+* NTFS is the default file system used by modern Windows systems.
+* Partition creation involves shrinking an existing volume and allocating new space.
+* Formatting should only be performed after verifying backups and understanding data impact.
+
+---
+
+## Repository Structure
 
 ```text
 Practical-03-Disk-Management/
 │
 ├── README.md
-├── Disk Management Overview.png
-├── Disk Management Interface.png
-├── Disk Properties Analysis.png
-├── Partition Management.png
-├── Drive Formatting.png
+├── Disk management overview.png
+├── Disk Management.png
 ```
 
 ---
 
-# Author
+## Author
 
 **Himadri Singh**
 
 ---
 
-# License
+## License
 
 This practical is created for educational and learning purposes.
