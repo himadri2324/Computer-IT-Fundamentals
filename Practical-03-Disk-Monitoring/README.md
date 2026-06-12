@@ -28,6 +28,16 @@ After completing this practical, you will be able to:
 
 ---
 
+## 🎬 Demonstration
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=fbbW4tLs5QU" target="_blank">
+    <img src="https://img.icons8.com/color/96/video.png" alt="Watch Demo" />
+    <br>
+    <strong>Click to watch the demonstration video</strong>
+  </a>
+</p>
+
+---
 
 # Part 1: Introduction to Disk Management & Partitions
 
@@ -69,7 +79,7 @@ During the practical:
 ## Video Demonstration
 
 **Video Link:**
-https://www.youtube.com/watch?v=YOUR_VIDEO_LINK
+https://www.youtube.com/watch?v=4Me-YwBQeNc
 
 ---
 
@@ -113,7 +123,7 @@ During the practical:
 ## Video Demonstration
 
 **Video Link:**
-https://www.youtube.com/watch?v=YOUR_VIDEO_LINK
+https://www.youtube.com/watch?v=B3-iT5qsO8o
 
 ---
 
@@ -156,7 +166,7 @@ During the practical:
 ## Video Demonstration
 
 **Video Link:**
-https://www.youtube.com/watch?v=YOUR_VIDEO_LINK
+https://www.youtube.com/watch?v=VhFSs1UApEk
 
 ---
 
@@ -202,7 +212,7 @@ During the practical:
 ## Video Demonstration
 
 **Video Link:**
-https://www.youtube.com/watch?v=YOUR_VIDEO_LINK
+https://www.youtube.com/watch?v=wNVgkByetl0
 
 ---
 
@@ -221,11 +231,6 @@ This practical provided hands-on exposure to Windows Disk Management and storage
 * Storage Best Practices
 
 By completing this practical, foundational skills required for IT Operations, System Administration, SOC Analysis, and Cybersecurity roles were developed through real-world storage management activities and analysis.
-
-## Video Demonstration
-
-**Video Link:**
-https://www.youtube.com/watch?v=YOUR_OVERALL_VIDEO_LINK
 
 ---
 
