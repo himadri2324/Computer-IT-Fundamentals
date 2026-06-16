@@ -26,7 +26,7 @@ After completing this practical, I was able to:
 * Understand the purpose of Windows Security Logs.
 * Explore different Windows log categories.
 * Locate failed login attempts using Event ID 4625.
-* Review authentication-related event details.
+* Review authentication related event details.
 * Understand how security analysts investigate login failures.
 * Identify indicators that may require additional investigation.
 
@@ -48,7 +48,7 @@ After completing this practical, I was able to:
 
 ## Objective
 
-To explore Event Viewer and understand how Windows organizes and stores system and security-related events.
+To explore Event Viewer and understand how Windows organizes and stores system and security related events.
 
 ## Topics Covered
 
