@@ -1,10 +1,10 @@
-# Practical 04: Windows Log Analysis & Failed Login Investigation
+# Practical 4: Windows Log Analysis & Failed Login Investigation
 
 ## Overview
 
-This practical focuses on understanding how Windows records authentication and security-related events using the built-in Event Viewer utility.
+This practical focuses on understanding how Windows records authentication and security related events using the built-in Event Viewer utility.
 
-The goal of this exercise was to explore Windows Security Logs, locate failed login attempts, review authentication event details, and understand the basic investigation process followed by security analysts during authentication-related investigations.
+The goal of this exercise was to explore Windows Security Logs, locate failed login attempts, review authentication event details, and understand the basic investigation process followed by security analysts during authentication related investigations.
 
 The practical was performed inside a Windows 10 virtual machine using Event Viewer. To keep the environment safe and stable, no system settings, registry values, security policies, or audit configurations were modified. The exercise focused entirely on reviewing and analyzing recorded security events.
 
