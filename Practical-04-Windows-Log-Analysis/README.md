@@ -35,7 +35,7 @@ After completing this practical, I was able to:
 ## 🎬 Demonstration
 
 <p align="center">
-  <a href="YOUR_FULL_VIDEO_LINK_HERE" target="_blank">
+  <a href="https://www.youtube.com/watch?v=R7negw8Bu6A" target="_blank">
     <img src="https://img.icons8.com/color/96/video.png" alt="Watch Demo" />
     <br>
     <strong>Click to watch the demonstration video</strong>
@@ -85,8 +85,8 @@ Among these categories, the Security Log was identified as the primary source fo
 * Authentication Monitoring Fundamentals
 
 ### Video Demonstration
+https://www.youtube.com/watch?v=l9feTBvDOEg
 
-PART 1 VIDEO LINK HERE
 
 ---
 
