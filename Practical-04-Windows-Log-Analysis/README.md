@@ -132,7 +132,7 @@ The following information was reviewed:
 
 ### Video Demonstration
 
-PART 2 VIDEO LINK HERE
+https://www.youtube.com/watch?v=VGv7l_xYS80
 
 ---
 
@@ -187,8 +187,8 @@ It was also discussed that failed login events do not automatically indicate mal
 * Security Monitoring Awareness
 
 ### Video Demonstration
+https://www.youtube.com/watch?v=HzlW9uCXZHw
 
-PART 3 VIDEO LINK HERE
 
 ---
 
@@ -230,8 +230,8 @@ A simple real world scenario was also discussed where a user reports being unabl
 * Security Event Review
 
 ### Video Demonstration
+https://www.youtube.com/watch?v=5grlemxT4pM
 
-PART 4 VIDEO LINK HERE
 
 ---
 
