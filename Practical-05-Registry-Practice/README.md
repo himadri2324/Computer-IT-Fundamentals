@@ -35,7 +35,7 @@ After completing this practical, I was able to:
 ## 🎬 Demonstration
 
 <p align="center">
-  <a href="YOUR_FULL_VIDEO_LINK">
+  <a href="https://www.youtube.com/watch?v=NfVLzdYMhaw">
     <img src="https://img.icons8.com/color/96/video.png" alt="Watch Demo" />
     <br>
     <strong>Click to watch the demonstration video</strong>
@@ -80,7 +80,7 @@ The Registry interface was explored and the following major Registry hives were 
 
 ### Video Demonstration
 
-YOUR_PART_1_VIDEO_LINK
+https://www.youtube.com/watch?v=TMsiGJiA7uI
 
 ---
 
@@ -121,7 +121,7 @@ The following Registry components were reviewed:
 
 ### Video Demonstration
 
-YOUR_PART_2_VIDEO_LINK
+https://www.youtube.com/watch?v=M6Z2FToQ6a0
 
 ---
 
@@ -155,7 +155,7 @@ Since this practical was performed on a production Windows installation, no Regi
 
 ### Video Demonstration
 
-YOUR_PART_3_VIDEO_LINK
+https://www.youtube.com/watch?v=bItvUiHWKQc
 
 ---
 
@@ -190,7 +190,7 @@ No Registry entries were modified during the practical.
 
 ### Video Demonstration
 
-YOUR_PART_4_VIDEO_LINK
+https://www.youtube.com/watch?v=Cz0JGa4hWvM
 
 ---
 
