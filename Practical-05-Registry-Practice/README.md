@@ -11,7 +11,7 @@ All demonstrations were performed on a production Windows system. To avoid makin
 This practical helps build foundational knowledge useful for IT Support, System Administration, SOC Operations, Digital Forensics, and Cybersecurity roles.
 
 <p align="center">
-  <img src="./Windows Registry Overview.png"
+  <img src=""
        alt="Windows Registry Practice Overview"
        width="900"/>
 </p>
