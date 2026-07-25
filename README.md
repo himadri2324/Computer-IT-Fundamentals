@@ -102,7 +102,7 @@ By completing these practicals, you will learn how to:
 - [x] Practical 3 — Disk Management
 - [x] Practical 4 — Windows Logs Analysis
 - [x] Practical 5 — Registry Practice
-- [ ] Practical 6 — Process Investigation
+- [x] Practical 6 — Process Investigation
 - [ ] Practical 7 — Linux Hands-on
 - [ ] Practical 8 — Linux Commands
 - [ ] Practical 9 — Linux Log Analysis
