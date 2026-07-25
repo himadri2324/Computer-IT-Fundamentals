@@ -1,4 +1,4 @@
-# Practical 3: Disk Management & Storage Handling in Windows
+# Practical 3: Disk Monitoring & Storage Handling in Windows
 
 ## Overview
 
