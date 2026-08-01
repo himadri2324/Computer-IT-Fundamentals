@@ -103,9 +103,9 @@ By completing these practicals, you will learn how to:
 - [x] Practical 4 — Windows Logs Analysis
 - [x] Practical 5 — Registry Practice
 - [x] Practical 6 — Process Investigation
-- [ ] Practical 7 — Linux Hands-on
-- [ ] Practical 8 — Linux Commands
-- [ ] Practical 9 — Linux Log Analysis
+- [x] Practical 7 — Linux Hands-on
+- [x] Practical 8 — Linux Commands
+- [x] Practical 9 — Linux Log Analysis
 - [ ] Practical 10 — Active Directory Lab
 - [ ] Practical 11 — User Management in AD
 - [ ] Practical 12 — Group Policy (GPO)
