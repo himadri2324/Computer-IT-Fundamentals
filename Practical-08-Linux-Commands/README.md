@@ -3,7 +3,7 @@
 ## Overview
 
 <p align="center">
-  <img src=""
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-08-Linux-Commands/Linux%20Commands.png"
        alt="Linux Commands"
        width="900"/>
 </p>
@@ -30,7 +30,7 @@ After completing this practical, you will be able to:
 ## 🎬 Demonstration
 
 <p align="center">
-  <a href="YOUR_FULL_VIDEO_LINK">
+  <a href="https://www.youtube.com/watch?v=pg-vjo2DsDo">
     <img src="https://img.icons8.com/color/96/video.png" alt="Watch Demo" />
     <br>
     <strong>Click to watch the demonstration video</strong>
