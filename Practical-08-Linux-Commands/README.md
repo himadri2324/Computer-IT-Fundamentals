@@ -383,7 +383,7 @@ After completing this practical, consider exploring the following Linux topics:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Himadri Singh**
 
@@ -392,7 +392,7 @@ After completing this practical, consider exploring the following Linux topics:
 
 ---
 
-# 📄 License
+#  License
 
 This project is created solely for **educational and learning purposes**.
 
