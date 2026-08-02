@@ -152,7 +152,7 @@ Security Investigation
 ## Authentication Log
 
 <p align="center">
-<img src="Images/auth-log.png" width="900">
+<img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-09-Linux-Log-Analysis/Authentication%20Log.png" width="900">
 </p>
 
 ---
@@ -160,7 +160,7 @@ Security Investigation
 ## Monitoring tail Activities
 
 <p align="center">
-<img src="Images/sudo-log.png" width="900">
+<img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-09-Linux-Log-Analysis/Tail%20Auth%20Log.png" width="900">
 </p>
 
 ---
@@ -168,7 +168,7 @@ Security Investigation
 ## Monitoring Sudo Activities
 
 <p align="center">
-<img src="Images/sudo-log.png" width="900">
+<img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-09-Linux-Log-Analysis/Grep-%20Sudo%20Log.png" width="900">
 </p>
 
 ---
