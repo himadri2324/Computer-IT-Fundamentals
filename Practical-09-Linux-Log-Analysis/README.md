@@ -248,8 +248,6 @@ Practical-9-Linux-Log-Analysis/
 
 **Himadri Singh**
 
-Cybersecurity Enthusiast | Linux Learner | SOC Analyst Aspirant
-
 ---
 
 # License
