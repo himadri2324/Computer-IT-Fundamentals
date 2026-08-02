@@ -1,7 +1,7 @@
 # Practical 9: Linux Log Analysis
 
 <p align="center">
-  <img src="Images/banner.png"
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-09-Linux-Log-Analysis/Linux%20Log%20Analysis.png"
        alt="Linux Log Analysis"
        width="900"/>
 </p>
@@ -157,10 +157,10 @@ Security Investigation
 
 ---
 
-## Searching Failed Login Attempts
+## Monitoring tail Activities
 
 <p align="center">
-<img src="Images/failed-login.png" width="900">
+<img src="Images/sudo-log.png" width="900">
 </p>
 
 ---
@@ -169,14 +169,6 @@ Security Investigation
 
 <p align="center">
 <img src="Images/sudo-log.png" width="900">
-</p>
-
----
-
-## Real-Time Log Monitoring
-
-<p align="center">
-<img src="Images/tail-follow.png" width="900">
 </p>
 
 ---
@@ -228,24 +220,28 @@ This is one of the most common investigation workflows performed by Security Ope
 # Repository Structure
 
 ```
+
 Practical-9-Linux-Log-Analysis/
 │
 ├── README.md
+│
 ├── Images/
 │   ├── banner.png
-│   ├── auth-log.png
-│   ├── failed-login.png
-│   ├── sudo-log.png
-│   └── tail-follow.png
+│   ├── linux-log-analysis-overview.png
+│   ├── authentication-log.png
+│   ├── tail-auth-log.png
+│   ├── grep-sudo-log.png
+│   ├── terminal-overview.png
+│   └── commands-summary.png
 │
 ├── Commands/
 │   └── linux-log-analysis-commands.txt
 │
 ├── Slides/
-│   └── Linux Log Analysis.pdf
+│   └── Practical-9-Linux-Log-Analysis.pdf
 │
-└── Video/
-    └── YouTube Demonstration Link
+└── LICENSE
+
 ```
 
 ---
@@ -261,15 +257,6 @@ Practical-9-Linux-Log-Analysis/
 - Incident Investigation
 - SOC Fundamentals
 - Blue Team Basics
-
----
-
-# Related Practicals
-
-- Practical 6 – Process Monitoring
-- Practical 7 – Linux File Permissions
-- Practical 8 – SSH Configuration
-- Practical 10 – Active Directory Lab
 
 ---
 
