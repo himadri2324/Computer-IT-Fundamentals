@@ -1,126 +1,288 @@
 # Practical 9: Linux Log Analysis
 
-## Overview
-
-Linux systems generate log files that record system activities, user authentication, service events, and security-related information. These logs are essential for troubleshooting, monitoring system health, and investigating security incidents.
-
-In this practical, you will explore the Linux authentication log (`/var/log/auth.log`) and learn how to analyze login attempts, SSH connections, and sudo activities using common Linux commands. This hands-on exercise introduces the fundamentals of log analysis used by Linux administrators and SOC (Security Operations Center) analysts.
-
 <p align="center">
-  <img src=""
+  <img src="Images/banner.png"
        alt="Linux Log Analysis"
        width="900"/>
 </p>
 
+<p align="center">
+
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![VMware](https://img.shields.io/badge/VMware-Workstation-607078?style=for-the-badge&logo=vmware&logoColor=white)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Log%20Analysis-blue?style=for-the-badge)
+
+</p>
+
 ---
 
-## Learning Objectives
+# Overview
+
+Linux records almost every important system activity inside log files. These logs provide valuable information about authentication events, user activities, system services, SSH connections, and administrative actions. They play a crucial role in system administration, troubleshooting, compliance auditing, and cybersecurity investigations.
+
+In this practical, we perform a hands-on analysis of the Linux authentication log (`/var/log/auth.log`). Using standard Linux commands, we examine login events, monitor privileged activities, search authentication records, and understand how security analysts investigate incidents using log data.
+
+This practical is designed for beginners in Linux, System Administration, IT Support, and Cybersecurity.
+
+---
+
+# Learning Objectives
 
 After completing this practical, you will be able to:
 
-- Understand the purpose of Linux log files.
+- Understand what Linux log files are.
+- Explain why system logs are important.
 - Navigate to the `/var/log` directory.
+- Identify common Linux log files.
 - Read authentication logs using Linux commands.
-- Analyze successful and failed login attempts.
-- Monitor SSH authentication events.
-- Track sudo (privileged) activities.
-- Use log analysis techniques for basic security investigations.
+- Search specific events using `grep`.
+- Analyze failed login attempts.
+- Verify successful authentication events.
+- Monitor sudo activities.
+- Perform basic authentication log investigations.
+- Understand how log analysis supports Security Operations Centers (SOC).
 
 ---
 
-## 🎬 Demonstration
+# 🎬 Demonstration
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=ENOPQDy9idI">
-    <img src="https://img.icons8.com/color/96/video.png" alt="Watch Demo" />
+    <img src="https://img.icons8.com/color/96/video.png" alt="Watch Demo"/>
     <br>
-    <strong>Click to watch the demonstration video</strong>
+    <strong>Watch Complete Practical Demonstration</strong>
   </a>
 </p>
 
 ---
 
-# Overall Practical
+# Practical Workflow
 
-### Areas Covered
+```
+Understand Linux Logs
+          │
+          ▼
+Navigate to /var/log
+          │
+          ▼
+Explore auth.log
+          │
+          ▼
+Read Log File
+(cat, less, head, tail)
+          │
+          ▼
+Search Authentication Events
+(grep)
+          │
+          ▼
+Monitor Sudo Activities
+          │
+          ▼
+Real-Time Log Monitoring
+          │
+          ▼
+Security Investigation
+```
+
+---
+
+# Areas Covered
 
 | Area | Description |
-|-------------------------|------------------------------------------------------------|
-| Linux Logging | Understanding the purpose of system log files |
-| `/var/log` Directory | Exploring the default Linux log storage location |
-| Authentication Logs | Reading `/var/log/auth.log` |
-| Log Reading Commands | Using `cat`, `less`, `head`, and `tail` |
-| Log Filtering | Searching log entries with `grep` |
-| SSH Monitoring | Identifying successful and failed SSH logins |
+|-------------------------|--------------------------------------------------------------|
+| Linux Logging | Understanding Linux logging architecture |
+| /var/log | Exploring the system log directory |
+| Authentication Logs | Reading authentication-related events |
+| Log Reading | Viewing log files using Linux commands |
+| Searching Logs | Filtering logs using grep |
+| SSH Monitoring | Identifying login attempts |
 | Sudo Monitoring | Tracking privileged command execution |
-| Real-Time Monitoring | Watching new log entries using `tail -f` |
-| Security Investigation | Performing basic authentication log analysis |
+| Live Monitoring | Monitoring logs using tail -f |
+| Security Investigation | Basic incident investigation workflow |
 
 ---
 
-## Lab Environment
+# Lab Environment
 
 | Component | Details |
-|-----------|---------|
+|------------|--------------------------------|
 | Operating System | Ubuntu Linux |
 | Virtualization Platform | VMware Workstation |
-| User Privileges | Standard User with Sudo Access |
-| Log File | `/var/log/auth.log` |
+| User Account | Standard User with Sudo Privileges |
 | Terminal | Ubuntu Terminal |
+| Log File | `/var/log/auth.log` |
 
 ---
 
-## Tools Used
+# Commands Demonstrated
 
-| Tool | Purpose |
-|------|---------|
-| Ubuntu Terminal | Execute Linux commands |
-| VMware Workstation | Virtual machine environment |
-| cat | Display complete log file |
-| less | Read large log files page by page |
-| head | Display the beginning of a log file |
-| tail | Display the latest log entries |
-| grep | Search specific log entries |
-| sudo | Execute administrative commands |
-
----
-
-## Key Takeaways
-
-- Linux stores important system and authentication logs inside the `/var/log` directory.
-- The `auth.log` file records authentication-related events such as logins, SSH access, and sudo activities.
-- Commands like `cat`, `less`, `head`, `tail`, and `grep` help efficiently analyze log files.
-- Failed login attempts can indicate brute-force attacks or unauthorized access attempts.
-- Successful authentication events help verify legitimate user access.
-- Sudo logs provide accountability for administrative actions.
-- Real-time log monitoring is useful during system administration and incident response.
-- Log analysis is a fundamental skill for Linux administrators, SOC analysts, and cybersecurity professionals.
+| Command | Purpose |
+|----------|--------------------------------|
+| `pwd` | Display current directory |
+| `whoami` | Show logged-in user |
+| `cd /var/log` | Navigate to log directory |
+| `ls` | List available log files |
+| `cat auth.log` | Display entire log file |
+| `less auth.log` | Read large log files |
+| `head auth.log` | View first lines |
+| `tail auth.log` | View latest log entries |
+| `grep "Failed password"` | Search failed logins |
+| `grep "Accepted password"` | Search successful logins |
+| `grep sudo` | Search sudo activities |
+| `tail -f auth.log` | Live log monitoring |
 
 ---
 
-## Repository Structure
+# Common Linux Log Files
+
+| Log File | Purpose |
+|----------------------|--------------------------------|
+| `/var/log/auth.log` | Authentication events |
+| `/var/log/syslog` | General system logs |
+| `/var/log/kern.log` | Kernel messages |
+| `/var/log/dpkg.log` | Package installation logs |
+| `/var/log/boot.log` | Boot process logs |
+
+---
+
+# Screenshots
+
+## Authentication Log
+
+<p align="center">
+<img src="Images/auth-log.png" width="900">
+</p>
+
+---
+
+## Searching Failed Login Attempts
+
+<p align="center">
+<img src="Images/failed-login.png" width="900">
+</p>
+
+---
+
+## Monitoring Sudo Activities
+
+<p align="center">
+<img src="Images/sudo-log.png" width="900">
+</p>
+
+---
+
+## Real-Time Log Monitoring
+
+<p align="center">
+<img src="Images/tail-follow.png" width="900">
+</p>
+
+---
+
+# Real-World Scenario
+
+Imagine you are working as a SOC Analyst.
+
+An organization reports multiple failed SSH login attempts on a production Linux server.
+
+Instead of guessing what happened, you:
+
+- Open the authentication log.
+- Search for failed login attempts.
+- Verify successful logins.
+- Review sudo activities.
+- Determine whether the activity is suspicious.
+- Escalate the incident if unauthorized access is detected.
+
+This is one of the most common investigation workflows performed by Security Operations Center (SOC) analysts.
+
+---
+
+# Best Practices
+
+- Regularly review authentication logs.
+- Investigate repeated failed login attempts.
+- Monitor privileged user activities.
+- Restrict unnecessary sudo access.
+- Archive old logs for compliance.
+- Protect log files from unauthorized modification.
+- Monitor logs continuously in production environments.
+
+---
+
+# Key Takeaways
+
+- Linux stores important logs inside the `/var/log` directory.
+- Authentication events are commonly recorded in `auth.log`.
+- Commands like `cat`, `less`, `head`, `tail`, and `grep` simplify log analysis.
+- Failed login attempts may indicate brute-force attacks.
+- Successful authentication confirms valid access.
+- Sudo logs provide accountability for privileged actions.
+- Real-time monitoring helps detect suspicious activities quickly.
+- Log analysis is a foundational skill for Linux administrators and cybersecurity professionals.
+
+---
+
+# Repository Structure
 
 ```
 Practical-9-Linux-Log-Analysis/
 │
 ├── README.md
 ├── Images/
-│   ├── overview.png
+│   ├── banner.png
 │   ├── auth-log.png
-│   ├── grep-search.png
+│   ├── failed-login.png
+│   ├── sudo-log.png
 │   └── tail-follow.png
 │
-└── Commands/
-    └── linux-log-analysis-commands.txt
+├── Commands/
+│   └── linux-log-analysis-commands.txt
+│
+├── Slides/
+│   └── Linux Log Analysis.pdf
+│
+└── Video/
+    └── YouTube Demonstration Link
 ```
 
 ---
 
-## Author
+# Skills Gained
+
+- Linux Fundamentals
+- Linux Administration
+- Authentication Log Analysis
+- Command Line Navigation
+- Bash Commands
+- Security Monitoring
+- Incident Investigation
+- SOC Fundamentals
+- Blue Team Basics
+
+---
+
+# Related Practicals
+
+- Practical 6 – Process Monitoring
+- Practical 7 – Linux File Permissions
+- Practical 8 – SSH Configuration
+- Practical 10 – Active Directory Lab
+
+---
+
+# Author
 
 **Himadri Singh**
 
----
-## License
+Cybersecurity Enthusiast | Linux Learner | SOC Analyst Aspirant
 
-This practical is created for educational and learning purposes.
+---
+
+# License
+
+This project is created for educational and learning purposes.
+
+Feel free to use it for study, practice, and academic learning.
