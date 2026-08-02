@@ -31,7 +31,7 @@ After completing this practical, you will be able to:
 ## 🎬 Demonstration
 
 <p align="center">
-  <a href="YOUR_FULL_VIDEO_LINK">
+  <a href="https://www.youtube.com/watch?v=ENOPQDy9idI">
     <img src="https://img.icons8.com/color/96/video.png" alt="Watch Demo" />
     <br>
     <strong>Click to watch the demonstration video</strong>
