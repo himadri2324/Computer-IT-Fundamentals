@@ -157,22 +157,6 @@ Security Investigation
 
 ---
 
-## Monitoring tail Activities
-
-<p align="center">
-<img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-09-Linux-Log-Analysis/Tail%20Auth%20Log.png" width="900">
-</p>
-
----
-
-## Monitoring Sudo Activities
-
-<p align="center">
-<img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-09-Linux-Log-Analysis/Grep-%20Sudo%20Log.png" width="900">
-</p>
-
----
-
 # Real-World Scenario
 
 Imagine you are working as a SOC Analyst.
