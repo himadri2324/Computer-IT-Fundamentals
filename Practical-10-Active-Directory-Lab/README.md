@@ -1,7 +1,7 @@
 # Practical 10: Active Directory Lab
 
 <p align="center">
-  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-09-Linux-Log-Analysis/Linux%20Log%20Analysis.png"
+  <img src=""
        alt="Active Directory Lab"
        width="900"/>
 </p>
