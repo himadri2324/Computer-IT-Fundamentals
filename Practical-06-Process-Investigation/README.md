@@ -38,7 +38,7 @@ After completing this practical, you will be able to:
 # 🎬 Demonstration
 
 <p align="center">
-  <a href="YOUR_FULL_VIDEO_LINK">
+  <a href="https://www.youtube.com/watch?v=aR6UipUg2_s">
     <img src="https://img.icons8.com/color/96/video.png" alt="Watch Demo"/>
     <br>
     <strong>Watch Full Practical on YouTube</strong>
@@ -78,7 +78,7 @@ Understand Windows processes and why process investigation is an important troub
 
 ### Video Demonstration
 
-YOUR_PART_1_VIDEO_LINK
+https://www.youtube.com/watch?v=2-_y56S3Ewo
 
 ---
 
@@ -115,8 +115,7 @@ Learn how to investigate running processes using Windows Task Manager.
 
 ### Video Demonstration
 
-YOUR_PART_2_VIDEO_LINK
-
+https://www.youtube.com/watch?v=QOXnGqLFaEU
 ---
 
 # Part 3: Process Explorer
@@ -152,7 +151,7 @@ Perform deeper process analysis using Microsoft Process Explorer.
 
 ### Video Demonstration
 
-YOUR_PART_3_VIDEO_LINK
+https://www.youtube.com/watch?v=QgaATRIT6q8
 
 ---
 
@@ -187,7 +186,7 @@ Understand the basic indicators analysts use during process investigations.
 
 ### Video Demonstration
 
-YOUR_PART_4_VIDEO_LINK
+https://www.youtube.com/watch?v=fDgn-be6rJg
 
 ---
 
