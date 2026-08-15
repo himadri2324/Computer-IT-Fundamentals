@@ -9,7 +9,7 @@ In this practical, I demonstrated how to safely investigate Windows processes us
 This practical was performed on a **host Windows machine** in an observation-only manner without making any system changes.
 
 <p align="center">
-  <img src="images/process-investigation-overview.png"
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-06-Process-Investigation/Process%20Investigation%20Overview.png"
        alt="Process Investigation Overview"
        width="900"/>
 </p>
@@ -68,7 +68,7 @@ Understand Windows processes and why process investigation is an important troub
 Task Manager was used to observe running applications and processes. Notepad was opened and its associated process was observed in Task Manager.
 
 <p align="center">
-  <img src="images/task-manager-notepad.png"
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-06-Process-Investigation/Task%20Manager%20Notepad.png"
        alt="Task Manager with Notepad Process"
        width="900"/>
 </p>
@@ -114,7 +114,7 @@ Learn how to investigate running processes using Windows Task Manager and examin
 Windows Task Manager was used to review running processes and observe CPU, Memory, Disk, and Network resource usage.
 
 <p align="center">
-  <img src="images/task-manager-processes.png"
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-06-Process-Investigation/Task%20Manager%20Processes.png"
        alt="Windows Task Manager Processes"
        width="900"/>
 </p>
@@ -164,7 +164,7 @@ Perform deeper process analysis using **Microsoft Process Explorer**.
 Microsoft Process Explorer was used to examine running processes and obtain additional process information.
 
 <p align="center">
-  <img src="images/process-explorer.png"
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-06-Process-Investigation/Process%20Explorer.png"
        alt="Microsoft Process Explorer"
        width="900"/>
 </p>
