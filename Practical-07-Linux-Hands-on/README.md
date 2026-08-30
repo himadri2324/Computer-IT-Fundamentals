@@ -201,7 +201,7 @@ The command also provides information about the SSH daemon and the port on which
 
 ### SSH Service Status
 
-![SSH Service Status](Images/ssh-service-status.png)
+![SSH Service Status](https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-07-Linux-Hands-on/ssh-service-status.png)
 
 The screenshot above shows that:
 
