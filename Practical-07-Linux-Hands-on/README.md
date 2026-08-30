@@ -1,5 +1,11 @@
 # Practical 7: Linux Hands-On – Connect via SSH
 
+<p align="center">
+  <img src="Images/practical-7-ssh-overview.png"
+       alt="Practical 7 - Linux Hands-On Connect via SSH"
+       width="1000"/>
+</p>
+
 ## Overview
 
 Secure Shell (SSH) is one of the most widely used protocols for securely accessing and managing Linux systems remotely.
