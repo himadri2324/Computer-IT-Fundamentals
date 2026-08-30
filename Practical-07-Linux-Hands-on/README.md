@@ -1,7 +1,7 @@
 # Practical 7: Linux Hands-On – Connect via SSH
 
 <p align="center">
-  <img src="Images/practical-7-ssh-overview.png"
+  <img src="https://github.com/himadri2324/Computer-IT-Fundamentals/blob/main/Practical-07-Linux-Hands-on/Linux%20SSH%20Hands-on.png"
        alt="Practical 7 - Linux Hands-On Connect via SSH"
        width="1000"/>
 </p>
